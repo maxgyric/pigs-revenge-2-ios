@@ -18,12 +18,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Check access key
+      # Licence: either the GameMaker access key (secret ACCESS_KEY), or the
+      # licence.plist from a signed-in GameMaker IDE (secret LICENCE_PLIST).
+      # igor-setup reuses a valid licence.plist it finds in its user folder.
+      - name: Prepare GameMaker licence
         env:
           ACCESS_KEY: ${{ secrets.ACCESS_KEY }}
+          LICENCE_PLIST: ${{ secrets.LICENCE_PLIST }}
         run: |
-          if [ -z "$ACCESS_KEY" ]; then
-            echo "::error::Add your GameMaker access key as the repository secret ACCESS_KEY"
+          if [ -n "$LICENCE_PLIST" ]; then
+            dir="$GITHUB_WORKSPACE/gm-sandbox/gm-user/tempUser"
+            mkdir -p "$dir"
+            printf '%s' "$LICENCE_PLIST" > "$dir/licence.plist"
+            grep -q "<plist" "$dir/licence.plist" || { echo "::error::LICENCE_PLIST does not look like a licence.plist file"; exit 1; }
+            grep -A1 "expiry_date" "$dir/licence.plist" | tail -1 | sed 's/<[^>]*>//g;s/^ */Licence expires: /'
+          elif [ -z "$ACCESS_KEY" ]; then
+            echo "::error::Add a repository secret: ACCESS_KEY (GameMaker access key) or LICENCE_PLIST (contents of licence.plist)"
             exit 1
           fi
 
@@ -31,7 +41,7 @@ jobs:
         id: igor
         uses: bscotch/igor-setup@v1
         with:
-          access-key: ${{ secrets.ACCESS_KEY }}
+          access-key: ${{ secrets.ACCESS_KEY || 'unused-licence-file-provided' }}
           target-yyp: ${{ env.YYP }}
           modules: ios
           cache: true
