@@ -8,6 +8,9 @@ on:
       - "tools/ExportMeta.csx"
       - ".github/workflows/decompile.yml"
 
+permissions:
+  contents: write
+
 jobs:
   decompile:
     runs-on: ubuntu-latest
@@ -54,3 +57,14 @@ jobs:
             out/dump
             out/meta
           retention-days: 14
+
+      - name: Publish export to the 'export' branch
+        run: |
+          cd out
+          rm -f game.droid
+          git init -q -b export
+          git config user.name "github-actions[bot]"
+          git config user.email "41898099+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Export from ${GITHUB_SHA}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}" export
