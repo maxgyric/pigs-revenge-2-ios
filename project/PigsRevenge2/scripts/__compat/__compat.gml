@@ -409,6 +409,15 @@ function __c_win_h() { return window_get_height() / __c_win_div(); }
 function __c_mouse_x() { return window_mouse_get_x() / __c_win_div(); }
 function __c_mouse_y() { return window_mouse_get_y() / __c_win_div(); }
 
+/// Keep the application surface the same size as view 0's port, so the
+/// view is drawn 1:1 and the surface has the screen's aspect ratio.
+function __c_sync_appsurf() {
+    var w = round(view_wport[0]), h = round(view_hport[0]);
+    if (w <= 0 || h <= 0 || !surface_exists(application_surface)) return;
+    if (surface_get_width(application_surface) != w || surface_get_height(application_surface) != h)
+        surface_resize(application_surface, w, h);
+}
+
 /// In-app purchases are not available in this port.
 function __c_iap_acquire(product, payload) {
     show_debug_message("[compat] iap_acquire(" + string(product) + ") ignored");

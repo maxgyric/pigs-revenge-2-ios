@@ -397,6 +397,9 @@ PATCHES = [
     # Viewports stay in physical pixels, so the game world renders as sharp as before.
     ("gml_Object_G_Step_1", "view_wport[0] = W * (1.9 - A / UI_SCALE);", "view_wport[0] = W * (1.9 - A / UI_SCALE) * __c_win_div();"),
     ("gml_Object_G_Step_1", "view_hport[0] = H * (1.9 - A / UI_SCALE);", "view_hport[0] = H * (1.9 - A / UI_SCALE) * __c_win_div();"),
+    # GMS2 keeps the application surface at the room's original port size
+    # (1024x574): resize it to the port so the picture isn't squashed/pillarboxed.
+    ("gml_Object_G_Step_1", "view_visible[0] = true;", "view_visible[0] = true;\n__c_sync_appsurf();"),
 ]
 
 
@@ -728,6 +731,15 @@ function __c_win_w() {{ return window_get_width() / __c_win_div(); }}
 function __c_win_h() {{ return window_get_height() / __c_win_div(); }}
 function __c_mouse_x() {{ return window_mouse_get_x() / __c_win_div(); }}
 function __c_mouse_y() {{ return window_mouse_get_y() / __c_win_div(); }}
+
+/// Keep the application surface the same size as view 0's port, so the
+/// view is drawn 1:1 and the surface has the screen's aspect ratio.
+function __c_sync_appsurf() {{
+    var w = round(view_wport[0]), h = round(view_hport[0]);
+    if (w <= 0 || h <= 0 || !surface_exists(application_surface)) return;
+    if (surface_get_width(application_surface) != w || surface_get_height(application_surface) != h)
+        surface_resize(application_surface, w, h);
+}}
 
 /// In-app purchases are not available in this port.
 function __c_iap_acquire(product, payload) {{

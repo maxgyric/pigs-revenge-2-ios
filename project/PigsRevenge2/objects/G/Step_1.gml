@@ -35,6 +35,7 @@ view_wport[0] = W * (1.9 - A / UI_SCALE) * __c_win_div();
 camera_set_view_size(view_camera[0], camera_get_view_width(view_camera[0]), H * (1.9 - A / UI_SCALE));
 view_hport[0] = H * (1.9 - A / UI_SCALE) * __c_win_div();
 view_visible[0] = true;
+__c_sync_appsurf();
 total_time += (1 * (delta_time / 1000000));
 if (keyboard_check_pressed(ord("R")))
 {
