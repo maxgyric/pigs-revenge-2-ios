@@ -1,15 +1,15 @@
 __compat_init();
 draw_set_font(F0);
 SA(0);
-W = window_get_width();
-H = window_get_height();
+W = __c_win_w();
+H = __c_win_h();
 CW = W / 2;
 CH = H / 2;
 W1 = W * 0.333334;
 W2 = W * 0.666667;
 H1 = H * 0.333334;
 H2 = H * 0.666667;
-A = H / 574;
+A = (H / 574) * UI_SCALE;
 _Sin = 0;
 _Sout = 1;
 _S = 0;

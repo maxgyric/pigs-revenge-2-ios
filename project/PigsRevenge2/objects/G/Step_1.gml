@@ -1,5 +1,5 @@
-W = window_get_width();
-H = window_get_height();
+W = __c_win_w();
+H = __c_win_h();
 CW = W / 2;
 CH = H / 2;
 W1 = W * 0.333334;
@@ -8,11 +8,11 @@ H1 = H * 0.333334;
 H2 = H * 0.666667;
 if (W > H)
 {
-    A = clamp(H / 574, 0.4, 1);
+    A = clamp(H / 574, 0.4, 1) * UI_SCALE;
 }
 else
 {
-    A = clamp(W / 1024, 0.4, 1);
+    A = clamp(W / 1024, 0.4, 1) * UI_SCALE;
 }
 if (_Sin < 1)
 {
@@ -30,10 +30,10 @@ if (_Sout < 0.4)
 camera_set_view_angle(view_camera[0], camera_get_view_angle(view_camera[0]) / 2);
 camera_set_view_angle(view_camera[0], clamp(camera_get_view_angle(view_camera[0]), -4, 4));
 display_set_gui_size(W, H);
-camera_set_view_size(view_camera[0], W * (1.9 - A), camera_get_view_height(view_camera[0]));
-view_wport[0] = W * (1.9 - A);
-camera_set_view_size(view_camera[0], camera_get_view_width(view_camera[0]), H * (1.9 - A));
-view_hport[0] = H * (1.9 - A);
+camera_set_view_size(view_camera[0], W * (1.9 - A / UI_SCALE), camera_get_view_height(view_camera[0]));
+view_wport[0] = W * (1.9 - A / UI_SCALE) * __c_win_div();
+camera_set_view_size(view_camera[0], camera_get_view_width(view_camera[0]), H * (1.9 - A / UI_SCALE));
+view_hport[0] = H * (1.9 - A / UI_SCALE) * __c_win_div();
 view_visible[0] = true;
 total_time += (1 * (delta_time / 1000000));
 if (keyboard_check_pressed(ord("R")))

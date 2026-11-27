@@ -393,6 +393,22 @@ function __c_array_length_1d(a) {
     return array_length(a);
 }
 
+/// UI size on phones. The game was designed for a 574 px high screen and caps
+/// its UI scale A at 1, so on a retina iPhone (~1179 px) everything was half
+/// size. The game now sees a logical resolution with the short side ~574 px;
+/// UI_SCALE enlarges the UI further (1 = original design proportions).
+#macro UI_SCALE 1.0
+#macro UI_DESIGN_HEIGHT 574
+
+function __c_win_div() {
+    var w = window_get_width(), h = window_get_height();
+    return max(1, min(w, h) / UI_DESIGN_HEIGHT);
+}
+function __c_win_w() { return window_get_width() / __c_win_div(); }
+function __c_win_h() { return window_get_height() / __c_win_div(); }
+function __c_mouse_x() { return window_mouse_get_x() / __c_win_div(); }
+function __c_mouse_y() { return window_mouse_get_y() / __c_win_div(); }
+
 /// In-app purchases are not available in this port.
 function __c_iap_acquire(product, payload) {
     show_debug_message("[compat] iap_acquire(" + string(product) + ") ignored");

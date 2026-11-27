@@ -12,7 +12,7 @@ function BT() {
     }
     var XS = (sprite_get_width(__S(argument2)) / 2) * S * _S;
     var YS = (sprite_get_height(__S(argument2)) / 2) * S * _S;
-    if (window_mouse_get_x() > (X - XS) && window_mouse_get_x() < (X + XS) && window_mouse_get_y() > (Y - YS) && window_mouse_get_y() < (Y + YS) && _S > 0.5 && _Sout == 1 && AllowPress && !cutscene_show && trans_type == 0)
+    if (__c_mouse_x() > (X - XS) && __c_mouse_x() < (X + XS) && __c_mouse_y() > (Y - YS) && __c_mouse_y() < (Y + YS) && _S > 0.5 && _Sout == 1 && AllowPress && !cutscene_show && trans_type == 0)
     {
         press = 4;
         if (mouse_check_button(mb_any))

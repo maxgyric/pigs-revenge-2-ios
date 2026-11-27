@@ -249,6 +249,10 @@ RENAMES = {
     "array_height_2d": "__c_array_height_2d",
     "array_length_1d": "__c_array_length_1d",
     "iap_acquire": "__c_iap_acquire",
+    "window_get_width": "__c_win_w",
+    "window_get_height": "__c_win_h",
+    "window_mouse_get_x": "__c_mouse_x",
+    "window_mouse_get_y": "__c_mouse_y",
 }
 VIEW_READ = {
     "view_xview": "camera_get_view_x(view_camera[{i}])",
@@ -381,6 +385,30 @@ def transform(src):
         i -= 1
 
     return join(toks)
+
+
+# Hand patches applied to specific converted code entries: (code entry, old, new).
+PATCHES = [
+    # UI scale: multiply A by UI_SCALE, keep the camera zoom as designed.
+    ("gml_Object_G_Step_1", "A = clamp(H / 574, 0.4, 1);", "A = clamp(H / 574, 0.4, 1) * UI_SCALE;"),
+    ("gml_Object_G_Step_1", "A = clamp(W / 1024, 0.4, 1);", "A = clamp(W / 1024, 0.4, 1) * UI_SCALE;"),
+    ("gml_Object_G_Step_1", "(1.9 - A)", "(1.9 - A / UI_SCALE)"),
+    ("gml_Object_G_Create_0", "A = H / 574;", "A = (H / 574) * UI_SCALE;"),
+    # Viewports stay in physical pixels, so the game world renders as sharp as before.
+    ("gml_Object_G_Step_1", "view_wport[0] = W * (1.9 - A / UI_SCALE);", "view_wport[0] = W * (1.9 - A / UI_SCALE) * __c_win_div();"),
+    ("gml_Object_G_Step_1", "view_hport[0] = H * (1.9 - A / UI_SCALE);", "view_hport[0] = H * (1.9 - A / UI_SCALE) * __c_win_div();"),
+]
+
+
+def apply_patches(name, code):
+    for entry, old, new in PATCHES:
+        if entry == name:
+            n = code.count(old)
+            if n == 0:
+                raise SystemExit(f"patch not applicable in {name}: {old!r}")
+            code = code.replace(old, new)
+            stats["patches"] = stats.get("patches", 0) + n
+    return code
 
 
 def read_code(name):
@@ -685,6 +713,22 @@ function __c_array_length_1d(a) {{
     return array_length(a);
 }}
 
+/// UI size on phones. The game was designed for a 574 px high screen and caps
+/// its UI scale A at 1, so on a retina iPhone (~1179 px) everything was half
+/// size. The game now sees a logical resolution with the short side ~574 px;
+/// UI_SCALE enlarges the UI further (1 = original design proportions).
+#macro UI_SCALE 1.0
+#macro UI_DESIGN_HEIGHT 574
+
+function __c_win_div() {{
+    var w = window_get_width(), h = window_get_height();
+    return max(1, min(w, h) / UI_DESIGN_HEIGHT);
+}}
+function __c_win_w() {{ return window_get_width() / __c_win_div(); }}
+function __c_win_h() {{ return window_get_height() / __c_win_div(); }}
+function __c_mouse_x() {{ return window_mouse_get_x() / __c_win_div(); }}
+function __c_mouse_y() {{ return window_mouse_get_y() / __c_win_div(); }}
+
 /// In-app purchases are not available in this port.
 function __c_iap_acquire(product, payload) {{
     show_debug_message("[compat] iap_acquire(" + string(product) + ") ignored");
@@ -710,7 +754,7 @@ for o in objects:
     for etype, lst in enumerate(o["Events"]):
         for e in lst:
             sub = e["EventSubtype"]
-            code = "\n\n".join(transform(read_code(a["CodeId"])) for a in e["Actions"] if a.get("CodeId"))
+            code = "\n\n".join(apply_patches(a["CodeId"], transform(read_code(a["CodeId"]))) for a in e["Actions"] if a.get("CodeId"))
             if etype == 4:
                 other = OBJECT_NAMES[sub]
                 fname = f"Collision_{other}.gml"

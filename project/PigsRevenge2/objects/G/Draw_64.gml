@@ -1614,8 +1614,8 @@ if (level_up_x > 0 && level_up_x < 590)
 }
 draw_set_alpha(1);
 draw_set_color(c_white);
-var _amx = window_mouse_get_x();
-var _amy = window_mouse_get_y();
+var _amx = __c_mouse_x();
+var _amy = __c_mouse_y();
 var _arel = mouse_check_button_released(mb_any);
 var _aingame = game_active && (M == 12 || M == 13);
 var _abx1 = 0;
