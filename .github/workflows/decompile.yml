@@ -36,14 +36,14 @@ jobs:
         run: |
           mkdir -p out
           cp data/game.droid out/game.droid
-          dotnet "$RUNNER_TEMP/utmtcli/UndertaleModCli.dll" dump out/game.droid \
+          dotnet "$RUNNER_TEMP/utmtcli/UndertaleModCli.dll" dump out/game.droid -v \
             -o out/dump -c UMT_DUMP_ALL -s -t --sprites
 
       - name: Export metadata and audio
         env:
           PR2_OUT: ${{ github.workspace }}/out/meta
         run: |
-          dotnet "$RUNNER_TEMP/utmtcli/UndertaleModCli.dll" load out/game.droid \
+          dotnet "$RUNNER_TEMP/utmtcli/UndertaleModCli.dll" load out/game.droid -v \
             -s tools/ExportMeta.csx
 
       - name: Upload export
