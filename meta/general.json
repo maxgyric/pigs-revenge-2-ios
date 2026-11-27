@@ -1,0 +1,69 @@
+[
+  {
+    "$type": "UndertaleGeneralInfo",
+    "IsDebuggerDisabled": true,
+    "BytecodeVersion": 15,
+    "Padding": 0,
+    "FileName": "PigsRevenge2",
+    "Config": "Default",
+    "LastObj": 100000,
+    "LastTile": 10000000,
+    "GameID": 237331469,
+    "DirectPlayGuid": {
+      "$type": "Guid",
+      "Variant": 0,
+      "Version": 0
+    },
+    "Name": "PigsRevenge2",
+    "Major": 1,
+    "Minor": 0,
+    "Release": 0,
+    "Build": 1749,
+    "Branch": "Pre2022_0",
+    "DefaultWindowWidth": 1024,
+    "DefaultWindowHeight": 574,
+    "Info": "Interpolate, ShowCursor, Sizeable, ScreenKey, StudioVersionB3",
+    "LicenseCRC32": 2391137396,
+    "Timestamp": 1459609534,
+    "DisplayName": "PigsRevenge2",
+    "ActiveTargets": 0,
+    "FunctionClassifications": "Math, Action, INI, HTTP, UIDialog, MotionPlanning, ShapeCollision, Instance, Game, Display, Device, Window, DrawColor, String",
+    "SteamAppID": 0,
+    "DebuggerPort": 6502,
+    "RoomOrder": [
+      "r_game"
+    ],
+    "GMS2RandomUID": [],
+    "GMS2FPS": 30,
+    "GMS2AllowStatistics": true,
+    "InfoTimestampOffset": true
+  },
+  {
+    "$type": "UndertaleOptions",
+    "ShaderExtensionFlag": -2147483648,
+    "ShaderExtensionVersion": 2,
+    "Info": "InterpolatePixels, UseNewAudio, ShowCursor, Sizeable, ScreenKey, QuitKey, SaveKey, ScreenShotKey, CloseSec, ScaleProgress, DisplayErrors, VariableErrors, CreationEventOrder",
+    "Scale": 0,
+    "WindowColor": 0,
+    "ColorDepth": 0,
+    "Resolution": 0,
+    "Frequency": 0,
+    "VertexSync": 0,
+    "Priority": 0,
+    "BackImage": {
+      "$type": "TextureEntry",
+      "Texture": null
+    },
+    "FrontImage": {
+      "$type": "TextureEntry",
+      "Texture": null
+    },
+    "LoadImage": {
+      "$type": "TextureEntry",
+      "Texture": null
+    },
+    "LoadAlpha": 255,
+    "Constants": [],
+    "NewFormat": true
+  }
+]

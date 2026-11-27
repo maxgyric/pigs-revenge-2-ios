@@ -1,0 +1,93 @@
+[
+  {
+    "$type": "UndertaleExtension",
+    "FolderName": "",
+    "Name": "MyChartboost",
+    "ClassName": "MyChartboost",
+    "Version": null,
+    "Files": [
+      {
+        "$type": "UndertaleExtensionFile",
+        "Filename": "MyChartboost.ext",
+        "CleanupScript": "",
+        "InitScript": "Init",
+        "Kind": "Generic",
+        "Functions": [
+          {
+            "$type": "UndertaleExtensionFunction",
+            "Name": "Init",
+            "ID": 1,
+            "Kind": 11,
+            "RetType": "Double",
+            "ExtName": "Init",
+            "Arguments": [
+              {
+                "$type": "UndertaleExtensionFunctionArg",
+                "Type": "String"
+              },
+              {
+                "$type": "UndertaleExtensionFunctionArg",
+                "Type": "String"
+              }
+            ]
+          },
+          {
+            "$type": "UndertaleExtensionFunction",
+            "Name": "showInterstitial",
+            "ID": 2,
+            "Kind": 11,
+            "RetType": "Double",
+            "ExtName": "showInterstitial",
+            "Arguments": []
+          },
+          {
+            "$type": "UndertaleExtensionFunction",
+            "Name": "showMoreApps",
+            "ID": 3,
+            "Kind": 11,
+            "RetType": "Double",
+            "ExtName": "showMoreApps",
+            "Arguments": []
+          },
+          {
+            "$type": "UndertaleExtensionFunction",
+            "Name": "showRewardedVideo",
+            "ID": 4,
+            "Kind": 11,
+            "RetType": "Double",
+            "ExtName": "showRewardedVideo",
+            "Arguments": []
+          },
+          {
+            "$type": "UndertaleExtensionFunction",
+            "Name": "cacheInterstitial",
+            "ID": 5,
+            "Kind": 11,
+            "RetType": "Double",
+            "ExtName": "cacheInterstitial",
+            "Arguments": []
+          },
+          {
+            "$type": "UndertaleExtensionFunction",
+            "Name": "cacheMoreApps",
+            "ID": 6,
+            "Kind": 11,
+            "RetType": "Double",
+            "ExtName": "cacheMoreApps",
+            "Arguments": []
+          },
+          {
+            "$type": "UndertaleExtensionFunction",
+            "Name": "cacheRewardedVideo",
+            "ID": 7,
+            "Kind": 11,
+            "RetType": "Double",
+            "ExtName": "cacheRewardedVideo",
+            "Arguments": []
+          }
+        ]
+      }
+    ],
+    "Options": []
+  }
+]

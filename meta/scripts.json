@@ -1,0 +1,326 @@
+[
+  {
+    "$type": "UndertaleScript",
+    "Name": "NextMenu",
+    "Code": "gml_Script_NextMenu",
+    "IsConstructor": false,
+    "ProjectName": "NextMenu",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "LangLoad",
+    "Code": "gml_Script_LangLoad",
+    "IsConstructor": false,
+    "ProjectName": "LangLoad",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "MakeLoad",
+    "Code": "gml_Script_MakeLoad",
+    "IsConstructor": false,
+    "ProjectName": "MakeLoad",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "GameInit",
+    "Code": "gml_Script_GameInit",
+    "IsConstructor": false,
+    "ProjectName": "GameInit",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "GameDestroy",
+    "Code": "gml_Script_GameDestroy",
+    "IsConstructor": false,
+    "ProjectName": "GameDestroy",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "BT",
+    "Code": "gml_Script_BT",
+    "IsConstructor": false,
+    "ProjectName": "BT",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "CS",
+    "Code": "gml_Script_CS",
+    "IsConstructor": false,
+    "ProjectName": "CS",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "DS",
+    "Code": "gml_Script_DS",
+    "IsConstructor": false,
+    "ProjectName": "DS",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "DT",
+    "Code": "gml_Script_DT",
+    "IsConstructor": false,
+    "ProjectName": "DT",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "MPlay",
+    "Code": "gml_Script_MPlay",
+    "IsConstructor": false,
+    "ProjectName": "MPlay",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "OpenLevelList",
+    "Code": "gml_Script_OpenLevelList",
+    "IsConstructor": false,
+    "ProjectName": "OpenLevelList",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "PS",
+    "Code": "gml_Script_PS",
+    "IsConstructor": false,
+    "ProjectName": "PS",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "PS_alt",
+    "Code": "gml_Script_PS_alt",
+    "IsConstructor": false,
+    "ProjectName": "PS_alt",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "PS_voc",
+    "Code": "gml_Script_PS_voc",
+    "IsConstructor": false,
+    "ProjectName": "PS_voc",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "SA",
+    "Code": "gml_Script_SA",
+    "IsConstructor": false,
+    "ProjectName": "SA",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "StopAllMusic",
+    "Code": "gml_Script_StopAllMusic",
+    "IsConstructor": false,
+    "ProjectName": "StopAllMusic",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "WeaponAdd",
+    "Code": "gml_Script_WeaponAdd",
+    "IsConstructor": false,
+    "ProjectName": "WeaponAdd",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "Draw_Ach",
+    "Code": "gml_Script_Draw_Ach",
+    "IsConstructor": false,
+    "ProjectName": "Draw_Ach",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "Draw_Equip",
+    "Code": "gml_Script_Draw_Equip",
+    "IsConstructor": false,
+    "ProjectName": "Draw_Equip",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "Draw_Levels",
+    "Code": "gml_Script_Draw_Levels",
+    "IsConstructor": false,
+    "ProjectName": "Draw_Levels",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "Draw_Shop",
+    "Code": "gml_Script_Draw_Shop",
+    "IsConstructor": false,
+    "ProjectName": "Draw_Shop",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "Draw_Upgrade",
+    "Code": "gml_Script_Draw_Upgrade",
+    "IsConstructor": false,
+    "ProjectName": "Draw_Upgrade",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "Draw_EXP",
+    "Code": "gml_Script_Draw_EXP",
+    "IsConstructor": false,
+    "ProjectName": "Draw_EXP",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "DrawAmmo",
+    "Code": "gml_Script_DrawAmmo",
+    "IsConstructor": false,
+    "ProjectName": "DrawAmmo",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "DrawWeapon",
+    "Code": "gml_Script_DrawWeapon",
+    "IsConstructor": false,
+    "ProjectName": "DrawWeapon",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "Draw_Quest",
+    "Code": "gml_Script_Draw_Quest",
+    "IsConstructor": false,
+    "ProjectName": "Draw_Quest",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "SaveAll",
+    "Code": "gml_Script_SaveAll",
+    "IsConstructor": false,
+    "ProjectName": "SaveAll",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "draw_logogame",
+    "Code": "gml_Script_draw_logogame",
+    "IsConstructor": false,
+    "ProjectName": "draw_logogame",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "Draw_Powerups",
+    "Code": "gml_Script_Draw_Powerups",
+    "IsConstructor": false,
+    "ProjectName": "Draw_Powerups",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "LangSetRUS",
+    "Code": "gml_Script_LangSetRUS",
+    "IsConstructor": false,
+    "ProjectName": "LangSetRUS",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "LangSetENG",
+    "Code": "gml_Script_LangSetENG",
+    "IsConstructor": false,
+    "ProjectName": "LangSetENG",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "LangSetUKR",
+    "Code": "gml_Script_LangSetUKR",
+    "IsConstructor": false,
+    "ProjectName": "LangSetUKR",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "LangSetESP",
+    "Code": "gml_Script_LangSetESP",
+    "IsConstructor": false,
+    "ProjectName": "LangSetESP",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "LangSetITA",
+    "Code": "gml_Script_LangSetITA",
+    "IsConstructor": false,
+    "ProjectName": "LangSetITA",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "LangSetFRE",
+    "Code": "gml_Script_LangSetFRE",
+    "IsConstructor": false,
+    "ProjectName": "LangSetFRE",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleScript",
+    "Name": "LangSetDEU",
+    "Code": "gml_Script_LangSetDEU",
+    "IsConstructor": false,
+    "ProjectName": "LangSetDEU",
+    "ProjectAssetType": "Script",
+    "ProjectExportable": true
+  }
+]

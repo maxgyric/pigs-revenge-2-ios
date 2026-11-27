@@ -1,0 +1,2319 @@
+prototype
+@@array@@
+arguments
+F
+V
+_Sin
+_Sout
+_S
+TReady
+argument0
+M
+CS
+SA
+LangSetRUS
+LangSetUKR
+LangSetESP
+LangSetITA
+LangSetFRE
+LangSetDEU
+LangSetENG
+NextMenuAfterLoading
+NextMenu
+StopAllMusic
+battle_kills
+battle_time
+battle_money
+check_ach
+got_medal
+battle_damage_get
+game_active
+play_level
+shit
+ass
+ccn
+stg
+floor
+map_type
+enemy_sprite_0
+enemy_sprite_0a
+enemy_sprite_1
+enemy_sprite_1a
+enemy_sprite_2
+enemy_sprite_2a
+enemy_sprite_3
+enemy_sprite_3a
+quest_f
+room_height
+irandom
+room_width
+instance_create
+N
+quest_id
+quset_id
+ceil
+count
+choose
+spawn
+random
+s_x
+s_y
+tex
+i_
+i
+ii
+map_props
+sprite_get_number
+weath_t
+weath_time
+is_win
+instance_activate_all
+instance_destroy
+pwrup
+keyboard_check
+quest_v
+quest_data
+X
+argument1
+Y
+argument5
+A
+clamp
+S
+press
+action
+draw_get_alpha
+p_a
+a_a
+argument2
+sprite_get_width
+XS
+sprite_get_height
+YS
+window_mouse_get_x
+window_mouse_get_y
+AllowPress
+cutscene_show
+trans_type
+mouse_check_button
+mouse_check_button_pressed
+mouse_check_button_released
+PS
+argument3
+draw_sprite_pos
+argument4
+DT
+draw_set_alpha
+draw_set_colour
+draw_get_color
+argument6
+draw_sprite_ext
+T
+p_c
+s_o
+draw_text_ext_transformed
+music
+audio_is_playing
+audio_play_sound
+level_stat
+ini_open
+max_levels
+L
+string
+LEV
+ini_read_real
+ini_close
+sounds
+random_range
+audio_sound_pitch
+audio_sound_gain
+my_voice
+draw_set_halign
+draw_set_valign
+audio_stop_sound
+WPN
+array_height_2d
+a
+argument_count
+argument
+ach_map
+array_length_1d
+page
+CW
+H1
+
+CH
+BT
+W
+/4
+sc
+slot
+weapon_slot
+weapon_exists
+pos_x
+pos_y
+spp
+ 
+: 
+sw
+sh
+aa
+SaveAll
+Select weapon!
+cnt_start
+cnt_end
+iter
+H
+weapon_avaible
+selected_slot
+levels_count
+selected_stage
+lev_start_cnt
+lev_end_cnt
+max_page
+max_avaible_page
+counter
+cos
+stat
+sin
+abs
+yadd
+draw_set_font
+SC
+prev_a
+type
+weapon_count
+money
+gold
+all_bought
+have_money
+text
+lerp
+W1
+$
+dress_avaible
+price
+str
+spi
+selected_dress
+hat_avaible
+selected_hat
+spw
+sph
+1,000,000
+1
+wp
+weapon_selected
+cur_wp
+UW_map
+get_up
+get_wp
+#
+(+
+)
+(-
+k
+ind
+up
+expa
+expa_next_level
+per
+draw_set_color
+prev_alp
+hero_level
+ / 
+draw_rectangle
+current_weapon
+instance_exists
+instance_nearest
+myp
+show_ammo
+reloading_time
+ammo_in_slot
+AM
+sp_w
+percent
+draw_circle
+RELOADING
+look_dir
+xscale
+WPS
+anim_type
+muzzle_dis
+muzzle_rot
+lengthdir_x
+m_x
+lengthdir_y
+m_y
+wp_sprite
+last_shot_time
+add_rot
+hand_lx
+hand_ly
+hand_lx2
+hand_ly2
+DS
+wait_next_shot
+wp_rot_add
+shot_second
+wp_offset
+fr
+event_shot
+quest_text
+Kill 
+ enemies!
+Kill BOSS
+Survive 
+ seconds!
+pa
+w_
+weapons
+ini_write_real
+slot_
+upgrade_Weapon_N
+_Upgrade_N
+weapons_
+_
+control_type_walk
+control_type_shot
+frags
+expa_levelnext
+total_time
+timetotal
+currnet_dress
+current_hat
+gamelang
+lang
+dress_avaible_
+hat_avaible_
+ach
+psX
+psY
+im
+Русский перевод
+В меню
+Действительно выйти?
+Да
+Остаться
+Выход
+Играть!
+Магазин
+Улучшения
+Достижения
+Титры
+Выбрать оружие
+Улучши оружие!
+Выбери уровень!
+Выбери оружие!
+Зал славы
+Вперёд!
+Ещё раз!
+Уровни
+Продолжить
+ПАУЗА
+Способ ходьбы
+Способ стрельбы
+ПЕРЕЗАРЯДКА!
+ТЕБЯ СЪЕЛИ!
+Не касайся врагов!
+Следи за патронами!
+Будь осторожен!
+Бей нечисть, чтобы заработать
+Уничтожая врагов, ты получаешь опыт
+С опытом ты откроешь новые предметы
+Не стой на месте!
+Не жалей патроны!
+Отомсти всем!
+Стреляй, чтобы стрелять
+Ходи, чтобы ходить
+Перезарядка
+Статистика уровня
+Игровая статистика
+Ранг: 
+Оружие
+Шапки
+Одежда
+Золото
+#Цена: 
+Поздравляем!#Вы скупили всё оружие!
+Денег: 
+Золота: 
+Поздравляем с покупкой!#Загляни в 'Сменить оружие'#чтобы взять оружие!
+ЗАЙДИ СЮДА#ЗА ОРУЖИЕМ
+Слот
+#Урон: 
+ сек.
+#Размер обоймы: 
+   |   Время перезарядки: 
+   |   Задержка.сл.выстр.: 
+обменять на
+не хватает#денег на обмен
+У тебя: 
+Увеличить урон
+Увеличить обойму
+Увеличить скорострельность
+Уменьшить перезарядку
+Ходьба стиком
+Ходьба кнопками
+Ходьба гравитацией
+Стрельба стиком
+Стрельба по направлению
+Автоматическая Стрельба
+Ты проиграл   
+Ты выиграл!   
+   Статистика уровня:#Убийств: 
+#Заработано: 
+##   Общая статистика:#Всего убийств: 
+#У тебя денег: 
+МИССИЯ ВЫПОЛНЕНА
+Миссия выполнена, но#рядом есть живые враги.#Убей их, или подожди 
+#Не бойся, ты неуязвимый
+НОВЫЙ РАНГ: 
+Опыт: 
+Купить: $
+ОДЕТЬ
+* одето *
+Макс.апгрейд
+Урон: 
+Патрон: 
+Задержка выстрела: 
+Время перезарядки: 
+Наконец-то я всем отомстил!
+Ура! Я отомстил всем!
+Ура! Моя месть окончена!
+Ну наконец-то, теперь я отомстил всем
+Я точно всем отомстил
+Ну вот и всё, никого больше не осталось
+Я всем отомстил!
+Всё, больше никто не сможет мне навредить!
+Ха! Теперь никого не осталось! Все отмщены!
+Я отомстил всем, теперь я смогу спать спокойно!
+Эй, Свин, ты забыл про нас!
+Эй, Свин, ты забыл про кое-кого!
+Свин, обернись! Мы пришли!
+Эй, Свин, это ещё не всё!
+Свин! Мы не дадим тебе покоя!
+Эй, отомсти нам!
+Ты забыл отомстить нам, Свин!
+Свинтус Свин! Ты забыл отомстить нам!
+Свин, ты не всем отомстил, обернись!
+Эй посмотри на нас, слабак!
+Готовьтесь отведать свинца!
+Вас ждёт месть!
+Я вам сейчас отомщу!
+Ах вы грязные негодники
+Сейчас вам придёт конец!
+Я вам отомщу!
+Готовьтесь к мести!
+Приготовьтесь к мести!
+Грязная нечисть, готовьтесь к мести!
+Вы ещё пожалете, что вернулись!
+Убить 100 врагов
+Провести в игре час
+Пройти 100 уровней
+Достичь 20 ранга
+Проиграть
+Пройти 1000 уровней
+Играть 10 часов
+Убить 2000 врагов
+Включить автострельбу
+Достичь 100 ранга
+Просмотреть титры
+Поиграть 100 часов
+Получить золото
+Достичь 500 ранга
+Убить 500,000 врагов
+Купить все шапки
+Купить всю одежду
+Купить всё оружие
+Купить все улучшения
+Убить 1,000,000 врагов
+Коснись, чтобы пропустить
+Страница 
+ЭТАП 
+Пред.#этап
+След.#этап
+К концу
+УРОВЕНЬ 
+СКОРОСТЬ
+х6 УРОН
+ЗАЩИТА
+ЗАМОРОЗКА
+х3 ДЕНЬГИ
+Используй левый нижний#стик для ходьбы!
+Приветствуем тебя в#PIGS REVENGE 2!
+Нажми на паузу, чтобы посмотреть#разные виды управления!
+Чтобы пройти уровень на золото,#управься как можно быстрее!
+Чтобы пройти уровень на золото,#не получи повреждений!
+Не забывай искать бонусы#на карте!
+Чтобы выбрать другое оружие,#нажми на кнопки сверху слева!
+English language
+To menu
+Really quit?
+YES
+NNNOOOO
+Quit
+Play!
+Shop
+Upgrade
+Achievments
+Credits
+Select weapon
+Upgrade your weapon!
+Select level!
+SHOP
+Select your weapon!
+Hall of fame
+Next level
+Try again
+Levels
+Continue
+PAUSE
+Walk control type:
+Shooting control type:
+RELOADING!
+YOU LOOSE!
+Dont touch enemies!
+Watch your ammo!
+Be careful!
+Kill enemies to earn money
+Get exp by killing your enemies
+Gain exp and open new stuff
+Don`t sleep, move!
+Don`t regret an ammo
+Revenge them all!
+Press shoot to shoot
+Press move to move
+Reload
+Statistics level
+Game statistics
+Rank: 
+Weapons
+Hats
+Dress
+Gold
+#Price: 
+Congratulations!#You bought all weapons!
+Money: 
+Gold: 
+Congratulations!#See to 'Change weapon' menu#to select new weapon!
+LOOK HERE#TO EQUIP GUN
+Slot
+#Damage: 
+ sec.
+#Clip size: 
+   |   Reload time: 
+  |  Delay of attack: 
+exchange for
+not enough#to exchange
+You have: 
+Upgrade damage
+Upgrade clipsize
+Upgrade delay of attack
+Decrease reload time
+Using stick
+Using buttons
+Walk by gravity
+Shoot to look direction
+Auto shooting
+YOU DEAD   
+YOU WIN!   
+   Statistics in match:#Kills: 
+#Money earned: 
+##   Game statistics:#Total kills: 
+#Your money: 
+MISSION COMPLETE
+Mission complete, but#nearby there are enemies.#Kill enemies, or wait 
+#Don't worry, you can't die
+NEW RANK: 
+Exp: 
+Buy: $
+DRESS
+* dressed *
+Max.upgrade
+Damage: 
+Clipsize: 
+Delay of fire: 
+Reload time: 
+Finally i revenge them all !
+Yippee! I revenge them all!
+Hurrah!My revenge is over!
+I revenge them all but it was hard!
+I difinetly revenge them all
+Thats all,Nobody is here anymore
+I kill each of this dirty enemies!
+Haha! That`s all! Nobody can hurt me anymore!
+Uhuh! I did it!I kill them all !
+I avenged..Now i can sleep huh!
+Hey, Piggy, you forgot about us!
+Haha, Pig, you forgot about your friends!!
+Turn aroud, Pig! We come to you!
+Hey, Piggy, that`s not all!
+Piggy! We will not let you rest!
+Haha, revenge us!
+You forgot revenge us, Piggy!
+Piggy Pig! How about revenge us?!
+Pig, you do not revenge, turn around!
+Look at us, goof!
+Get ready to get my big PIG!
+you will revenge!
+I will avenge you now!
+Argh, you filthy wretch!
+Now you will end!
+Be ready for revenge, enemies!
+Get ready for revenge!
+You have no chances! I will kill each of you
+Dirty scum, prepare for revenge!
+You may regret that returned!
+Kill 100 enemies
+Spend an hour in the game
+Pass 100 levels
+Reach rank 20
+Get loose
+Pass 1000 levels
+Play 10 hours
+Kill 2000 enemies
+Try auto-shooting
+Reach rank 100
+See titres
+Play 100 hours
+Get a gold
+Reach rank 500
+Kill 500,000 enemies
+Buy all hats
+Buy all clothes
+Buy all weapons
+Buy all upgrades
+Kill 1,000,000 enemies
+Tap to skip
+Page 
+STAGE 
+Prev.#page
+Next#page
+Last#page
+LEVEL 
+SPEED!
+X6 DAMAGE!
+ARMOR!
+FREEZE!
+x3 MONEY
+Use left stick to walk!#Use right stick to attack!
+Welcome to#PIGS REVENGE 2!
+Press pause to look#another control types!
+Don't touch enemies!
+If you want get a gold medal,#kill all enemies quickly!
+If you want get a gold medal,#don't touch enemies!
+Remember! Explore# the map to find bonuses!
+To select another weapon#tap up left weapon icons!
+Український переклад
+Дійсно вийти?
+Так
+Немає
+вийти
+Грати!
+Покращення
+Досягнення
+Титри
+Вибрати зброю
+Поліпшити зброю!
+Вибери рівень!
+Вибери зброю!
+Зала слави
+Вперед!
+Ще раз!
+Рівні
+Продовжити
+Спосіб ходьби
+Спосіб стрільби
+ТЕБЕ З'ЇЛИ!
+Чи не торкайся ворогів!
+Стеж за патронами!
+Будь обережний!
+Бей нечисть, щоб заробити
+Знищуючи ворогів, ти отримуєш досвід
+З досвідом ти відкриєш нові предмети
+Не стій на місці!
+Чи не шкодуй патрони!
+Відомсти всім!
+Стріляй, щоб стріляти
+Ходи, щоб ходити
+Статистика рівня
+Ігрова статистика
+Зброя
+Одяг
+#Ціна: 
+Вітаємо!#Ви скупили всю зброю!
+Грошей: 
+Вітаємо Вас із покупкою!#Зазирни в 'Міняти зброю'#щоб взяти зброю!
+ЗАЙДИ СЮДИ#ЗА ЗБРОЄЮ
+#Втрати: 
+#Розмір обойми: 
+   |   Час перезарядки: 
+   |   Затримка нст.пст.: 
+змінити на
+не вистачає#грошей на обмін
+У тебе: 
+Збільшити шкоди
+Збільшити обойму
+Збільшити скорострільність
+Зменшити перезарядку
+Ходьба стіком
+Ходьба гравітацією
+Стрілянина стіком
+Стрілянина по напрямку
+Автоматична Стрілянина
+Ти програв
+Ти виграв!
+   Статистика рівня:#Вбивств: 
+#Зароблено:
+##Загальна статистика: # Всього вбивств:
+#У тебе грошей:
+МІСІЯ ВИКОНАНО
+Місія виконана, але # поруч є живі вороги. # Убий їх, або почекай
+#Не бійся, ти невразливий
+НОВИЙ РАНГ:
+Досвід:
+Купити: $
+ОДЯГНУТИ
+* одягнене *
+Втрати:
+Патрон:
+Затримка пострілу:
+Час перезарядки:
+Нарешті-то я всім помстився!
+Ура! Я помстився всім!
+Ура! Моя помста закінчена!
+Ну нарешті, тепер я помстився всім
+Я точно всім помстився
+Ну ось і все, нікого більше не залишилося
+Я всім помстився!
+Все, більше ніхто не зможе мені нашкодити!
+Ха! Тепер нікого не залишилося! Все помщуся!
+Я помстився всім, тепер я зможу спати спокійно!
+Ей, Свін, ти забув про нас!
+Ей, Свін, ти забув про декого!
+Свін, озирнися! Ми прийшли!
+Ей, Свін, це ще не все!
+Свін! Ми не дамо тобі спокою!
+Ей, помстися нам!
+Ти забув помститися нам, Свін!
+Свинтус Свін! Ти забув помститися нам!
+Свін, ти не всім помстився, озирнися!
+Ей подивися на нас, слабак!
+Готуйтеся покуштувати свинцю!
+Вас чекає помста!
+Я вам зараз помщуся!
+Ах ви брудні негідники
+Зараз вам прийде кінець!
+Я вам помщуся!
+Готуйтеся до помсти!
+Приготуйтеся до помсти!
+Брудна нечисть, готуйтеся до помсти!
+Ви ще пошкодувати, що повернулися!
+Вбити 100 ворогів
+Провести в грі годину
+Пройти 100 рівнів
+Досягти 20 рангу
+Програти
+Пройти 1000 рівнів
+Грати 10 годин
+Вбити 2000 ворогів
+Включити автострельбу
+Досягти 100 рангу
+Переглянути титри
+Пограти 100 годин
+Отримати золото
+Досягти 500 рангу
+Вбити 500,000 ворогів
+Купити все шапки
+Купити весь одяг
+Купити всю зброю
+Купити все поліпшення
+Вбити 1,000,000 ворогів
+Перевернути, щоб пропустити
+Сторінка
+ЕТАП 
+Перед.#Етап
+Слід.#Етап
+До кінця
+РІВЕНЬ
+ШВИДКІСТЬ
+х6 звалили
+ЗАХИСТ
+заморозки
+х3 ГРОШІ
+Використовуй лівий нижній # стик для ходьби!
+Вітаємо тебе в#PIGS REVENGE 2!
+Натисни на паузу, щоб подивитися#різні види управління!
+Не торкайся ворогів!
+Щоб пройти рівень на золото,#управи якомога швидше!
+Щоб пройти рівень на золото,#не одержала пошкоджень!
+Не забувай шукати бонуси#на карті!
+Щоб вибрати іншу зброю,#натисни на кнопки зверху зліва!
+español
+Para menú
+renunciar de verdad?
+SÍ
+NOOOO
+Salir
+Tienda
+Actualizar
+Logros
+Créditos
+Elija un arma
+Actualiza tu arma!
+Seleccionar nivel!
+Seleccionar el arma!
+Salón de la fama
+Siguiente nivel
+Inténtelo de nuevo
+Niveles
+Continuar
+PAUSA
+tipo de control de itinerario:  
+Shooting tipo de control:  
+RECARGA 
+usted suelta!
+No toque los enemigos!
+Mire su munición!
+Ten cuidado!
+matar a los enemigos para ganar dinero
+Obtener exp por matar a sus enemigos
+Ganancia exp y abrir cosas nuevas
+Don`t sueño, mover ! 
+No lamento una munición
+La venganza todos ellos!
+prensa de lanzamiento para disparar
+Prensa de movimiento para mover
+Estadísticas nivel
+Estadísticas de juego
+Rango:  
+Armas
+gorras
+oro
+Felicidades! #You comprar todas las armas!
+El dinero: 
+oro:  
+Felicidades!#See en'' Change arma 'menú para seleccionar#nueva arma!
+#LOOK HERE para equipar ARMA
+Ranura
+Elija un arma!
+Sec.
+tamaño#Clip: 
+| tiempo de recarga:  
+sec.
+| Retraso de ataque:  
+cambio de
+#no es suficiente para el intercambio de 
+Usted tiene:  
+actualización de daños
+actualización ClipSize
+retraso de actualización de ataque
+Reduce el tiempo de recarga
+Uso de palo
+Uso botones 
+Paseo por la gravedad 
+Uso de palo 
+disparar a mirar en dirección a 
+disparo automático 
+muerto 
+A GANAR!
+Estadísticas en el partido:  #Kills: 
+#Money ganó: 
+## Estadísticas de juego:  #Total mata:  
+#Your dinero: . 
+completa la misión 
+Misión completa, pero cerca hay##enemigos matar a los enemigos, o esperar 
+# no se preocupe, usted no puede morir 
+nuevo rango:  
+Exp:  
+Compra:  $ 
+Dress 
+* * vestida
+daños:  
+Clip Tamaño:  
+retardo de fuego:  
+Actualizar el tiempo:  
+Finalmente i venganza a todos!
+¡Yupi! Me venganza a todos!
+¡Viva! Mi venganza es más!
+I venganza a todos ellos, pero era difícil!
+Definitivamente venganza a todos
+Eso es todo, nadie es aquí más
+mato a cada uno de estos sucios enemigos!
+Jaja!` S todo! Nadie puede hacerme daño nunca más!
+uhuh! ¡Lo hice! Mato a todas!
+I avenged..Now puedo dormir eh!
+Hey, Piggy, se olvidó de nosotros!
+Jaja, cerdo, que se olvidó de sus amigos !!
+Activar vamos envejeciendo, cerdo! Nos dirigimos a ustedes!
+Hey, Piggy, no` s de todo! 
+Piggy! No vamos a dejarte descansar!
+Jaja, nos venganza!
+Se le olvidó la venganza nosotros, Piggy!
+cerdo guarro! ¿Y nosotros venganza ?!
+Pig, que no venganza, dar la vuelta!
+Míranos, el tonto!
+Prepárese para conseguir mi gran cerdo!
+se quiere venganza!
+le haré justicia ahora!
+Argh, desgraciado asqueroso!
+Ahora se va a terminar!
+Esté listo para la venganza, enemigos!
+Prepárese para la venganza!
+No tiene posibilidades! Voy a matar a cada uno de ustedes
+escoria sucia, prepararse para la venganza!
+Usted puede lamentar que regresó!
+Mata a 100 enemigos
+Pasar una hora en el juego
+Pass 100 niveles
+Alcanza el nivel 20
+Obtener suelto 
+Pass 1000 los niveles de 
+Juega 10 horas 
+Mata a 2000 enemigos 
+Prueba de auto-disparar 
+Reach pertinencia 100
+Ver títulos de 
+Juega 100 horas 
+Obtener una medalla de oro 
+Alcanza el nivel 500 
+Mata a 500.000 enemigos 
+Comprar todos los sombreros 
+Compra toda la ropa 
+Compra todas las armas 
+Compra todas las mejoras 
+Mata a 1.000.000 enemigos 
+Pulse para ir 
+página 
+Etapa 
+Prev. # página 
+Siguiente # página 
+# Última página
+Nivel 
+VELOCIDAD!
+X6 DAÑO!
+armadura
+¡Alto!
+x3 DINERO
+Use joystick izquierdo para caminar!#Utilice Stick derecho para atacar!
+Bienvenido a#2 CERDOS VENGANZA!
+Pulse pausa para mirar#otros tipos de control!
+Si desea obtener una medalla de oro,#matan a todos los enemigos rápidamente!
+Si desea obtener una medalla de oro, # no toque los enemigos!
+Recuerde! # Explorar el mapa para encontrar bonos
+Para seleccionar otra arma # grifo hasta izquierdo iconos de armas!
+italiano
+menu
+Davvero smettere?
+Esci
+Conquiste
+Crediti
+Seleziona arma
+Aggiorna la tua arma!
+Seleziona livello!
+Seleziona la tua arma!
+Prova ancora
+Livelli
+Continua
+tipo di controllo di passeggiata: 
+Shooting tipo di controllo: 
+RICARICA!
+perdi!
+Dont Touch nemici!
+Vedere le munizioni!
+Attenzione!
+uccidere i nemici per guadagnare soldi
+Get exp uccidendo i nemici
+Guadagno exp e aprire nuove cose
+sonno Don`t, si muove!
+Don`t rammarico un ammo
+Revenge tutti!
+Press sparare per sparare
+Press mossa per spostare
+Ricarica
+livello di statistiche
+statistiche di gioco
+armi
+Cappelli
+Oro
+Congratulazioni! # Lo ha comprato tutte le armi!
+Oro: 
+Congratulazioni! #controlla A 'cambiare arma' menù # per selezionare nuova arma!
+# GUARDA QUI per dotare PISTOLA
+Seleziona arma!
+size #Clip: 
+| tempo di ricarica: 
+| Ritardo di attacco: 
+cambio
+non abbastanza#per lo scambio
+Hai: 
+danni aggiornamento
+ClipSize aggiornamento
+ritardo aggiornamento di attacco
+diminuire il tempo di ricarica
+Usare il bastone
+Uso dei pulsanti
+Walk di gravità
+Spara a guardare in direzione
+riprese Auto
+morto
+hai vinto!
+Statistiche sospesa:  #Kills: 
+#Money guadagnato: 
+statistiche di gioco ##:  #Total uccide: 
+#Your soldi: 
+missione completa
+Missione completata, ma # nelle vicinanze ci sono nemici. # Uccidere i nemici, oppure attendere
+# Non ti preoccupare, non si può morire
+nuovo rango: 
+Buy:  $
+vestire
+* * vestite
+ClipSize: 
+Ritardo di fuoco: 
+tempo di ricarica: 
+Finalmente i vendetta a tutti!
+Yippee! Io vendetta tutti!
+Evviva! La mia vendetta è finita!
+Io vendetta a tutti, ma è stato difficile!
+Ho difinetly vendetta a tutti
+Questo è tutto, nessuno è più qui
+Io uccido ciascuno di questi sporchi nemici!
+Haha!` S tutti! Nessuno può farmi del male più! 
+Uhuh! L'ho fatto, io li uccido!
+Ho avenged..Now riesco a dormire eh!
+Hey, Piggy, è dimenticato di noi!
+Haha, Maiale, ti sei dimenticato di tuoi amici !!
+Turn aroud, maiale! Veniamo a te!
+Hey, Piggy, non` s tutti! 
+Piggy! Noi non permette di riposare!
+Haha, ci vendetta!
+Hai dimenticato la vendetta di noi, Piggy!
+Piggy Pig! Come su di noi vendetta ?!
+Pig, tu non la vendetta, girarsi!
+Guardate noi, Goof!
+Preparatevi per ottenere la mia grande maiale!
+si vuole vendetta!
+Ti vendicherò ora!
+Argh, è sporco disgraziato!
+Ora si finirà!
+essere pronto per la vendetta, nemici!
+Preparatevi per vendetta!
+Non ci sono possibilità, io ucciderò ciascuno di voi
+feccia sporco, prepararsi per la vendetta!
+Si può rimpiangere che ha restituito!
+uccidere 100 nemici
+passare un'ora nel gioco
+pass 100 livelli
+Reach rango 20
+liberarsi
+PASS 1000 livelli
+giocare 10 ore
+uccidere 2000 nemici
+Prova auto-shooting
+Reach rilevanza 100
+Vedere titoli
+Gioca 100 ore
+Prendi un oro
+Reach rango 500
+uccidere 500.000 nemici
+Acquista tutti i cappelli
+Acquista tutti i vestiti
+Acquista tutte le armi
+Acquista tutti gli aggiornamenti
+Kill 1.000.000 nemici
+Tocca per saltare
+Pagina
+. # Pagina precedente
+Avanti # pagina
+# pagina Ultimo
+LIVELLO 
+X6 danni!
+Freeze!
+x3 SOLDI
+Usa levetta sinistra per camminare! #use Levetta destra per attaccare!
+Benvenuto # PIGS REVENGE 2!
+Premi di pausa per guardare # altri tipi di controllo!
+Non toccare i nemici!
+Se si desidera ottenere una medaglia d'oro, # uccidere tutti i nemici in fretta!
+Se si desidera ottenere una medaglia d'oro, # non toccare i nemici!
+Ricorda! Esplorare # la mappa per individuare bonus
+Per selezionare un'altra arma # rubinetto fino icone arma sinistra!
+français
+Pour menu
+Vraiment quitter?
+OUI
+Aucun
+Quitter
+Mise à jour
+Réalisations
+Crédits
+Sélectionner arme
+Améliorez votre arme!
+Sélectionner le niveau!
+Choisissez votre arme!
+Niveau suivant
+Niveaux
+Continuer
+type de contrôle de promenade: 
+Tir type de contrôle: 
+RECHARGEMENT!
+vous perdez!
+Ne ennemis toucher!
+Regardez vos munitions!
+Attention!
+Tuez les ennemis pour gagner de l'argent
+Obtenir exp en tuant vos ennemis
+Gain exp et ouvrir de nouvelles choses
+sommeil Don`t, bouger!
+Don`t regrette une munition
+Revenge tous!
+Appuyez pousse à tirer
+Appuyez déplacement pour déplacer
+niveau de statistiques
+Statistiques de jeu
+armes
+Chapeaux
+#price: 
+Félicitations! #Vous Acheté toutes les armes!
+Félicitations! #See À« Changer d'arme «menu # pour sélectionner une nouvelle arme!
+# REGARDEZ ICI POUR EQUIP GUN
+Sélectionner arme!
+#Damage
+taille #Clip: 
+| Temps de rechargement: 
+| Délai d'attaque: 
+échange de
+pas assez # pour l'échange
+Vous avez: 
+dommages Upgrade
+ClipSize Upgrade
+délai de mise à niveau d'attaque
+Diminuer le temps de recharge
+Utilisation de bâton
+Utilisation de boutons
+Marche par gravité
+Shoot regarder direction
+tir automatique
+YOU DEAD
+VOUS GAGNEZ!
+Statistiques en correspondance:  #Kills: 
+#Money gagné: 
+Statistiques de jeu de ##:  #Total tue: 
+#Votre argent: 
+COMPLETE MISSION
+Mission accomplie, mais # à proximité il y a des ennemis. # Tuez les ennemis, ou attendre
+# Ne vous inquiétez pas, vous ne pouvez pas mourir
+NOUVEAU GRADE: 
+Acheter:  $
+* habillé *
+Dommages
+Retard de feu: 
+Temps de rechargement: 
+Enfin i vengeance tous!
+Yippee! Je vengeance les tous!
+Hourra! Ma vengeance est finie!
+Je vengeance tous mais il était difficile!
+Je difinetly vengeance tous
+C'est tout, personne est plus ici
+Je tue chacun des ces ennemis sales!
+Haha! That`s tout! Personne ne peut me blesser plus!
+Uhuh! Je l'ai fait! Je les tuerai tous!
+J'avenged..Now je peux dormir hein!
+Hey, Piggy, vous avez oublié de nous!
+Haha, Pig, vous avez oublié vos amis !!
+Tournez Aroud, Pig! Nous venons à vous!
+Hey, Piggy, That`s pas tout!
+Piggy! Nous ne vous laissera pas le repos!
+Haha, nous venger!
+Vous avez oublié la vengeance nous, Piggy!
+Piggy Pig! Que diriez-vous de nous venger ?!
+Pig, vous ne la vengeance, se retourne pas!
+Regardez-nous, gaffe!
+Préparez-vous à obtenir mon grand PIG!
+vous vengerai!
+Je vous vengerai maintenant!
+Argh, vous hère sale!
+Maintenant, vous allez vous retrouver!
+Soyez prêt pour la vengeance, les ennemis!
+Préparez-vous pour la vengeance!
+Vous avez pas de chance! Je tuerai chacun de vous
+écume sale, se préparer à la vengeance!
+Vous pouvez regretter que retourné!
+Tuez 100 ennemis
+Passez une heure dans le jeu
+pass 100 niveaux
+Atteindre le rang 20
+Get Loose
+Passe 1000 niveaux
+Jouer 10 heures
+Tuez 2000 ennemis
+Essayez auto-tir
+Atteindre le rang 100
+Voir les titres
+Jouer 100 heures
+Obtenir une médaille d'or
+Atteindre le rang 500
+Tuez 500.000 ennemis
+Acheter tous les chapeaux
+Acheter tous les vêtements
+Acheter toutes les armes
+Acheter toutes les améliorations
+Tuez 1.000.000 ennemis
+Appuyez sur pour sauter
+Page
+Prev. # Page
+# Page suivante
+# page Last
+NIVEAU 
+X6 DOMMAGE!
+ARGENT x3
+Utiliser stick gauche pour marcher! #Utiliser Bâton droit d'attaquer!
+Bienvenue # PIGS REVENGE 2!
+Appuyez sur pause pour regarder # autres types de contrôle!
+Ne touchez pas ennemis!
+Si vous voulez obtenir une médaille d'or, # tuer tous les ennemis rapidement!
+Si vous voulez obtenir une médaille d'or, # ne pas toucher les ennemis!
+Rappelez-vous! Explorer # le plan pour rechercher des bonus
+Pour sélectionner une autre arme # robinet des icônes d'arme à gauche!
+Deutch Sprache
+Um Menü
+Wirklich beenden?
+JA
+NEIN
+Beenden
+Spielen!
+Einkaufen
+Verbesserungen
+Wählen Sie Waffe
+Ihre Waffe Upgraden!
+Ebene auswählen!
+Ihre Waffe Wählen Sie!
+Hall of Fame
+Next Level
+Versuchen Sie es erneut
+Weiter
+Walk Steuerungsart: 
+Schießen Steuerungsart: 
+NACHLADEN!
+Sie verlieren!
+Dont Touch Feinde!
+Passen Sie Ihre Munition!
+Sei vorsichtig!
+Kill Feinde um Geld zu verdienen
+Get exp durch Ihre Feinde zu töten
+Gain exp und eröffnen neue Sachen
+Don`t schlafen, bewegen!
+Don`t bedauern eine Munition
+Revenge sie alle!
+Drücken Sie schießen, um zu schießen
+Drücken Sie bewegen sich zu bewegen
+Statistiken level
+Spielstatistik
+Waffen
+Hüte
+Kleid
+Herzlichen Glückwunsch! #You Gekauft alle Waffen!
+Money
+Herzlichen Glückwunsch!#See Zu'' Waffe wechseln ''Menü#neue Waffe zu wählen!
+Schau mal hier#GUN ausstatten
+Waffe wählen!
+sek.
+#Clip Größe: 
+| Nachladezeit: 
+| Verzögerung des Angriffs: 
+Austausch für
+nicht genug#zum Austausch
+Sie haben: 
+Upgrade-Schaden
+Upgrade-Clipsize
+Upgrade-Verzögerung des Angriffs
+Abnahme Nachladezeit
+Mit-Stick
+Mit den Tasten
+Weg durch die Schwerkraft
+Shoot Richtung zu schauen
+Sie tot
+Sie gewinnen!
+Statistik in match:  #Kills: 
+#Money verdient: 
+## Spielstatistik:  #Total tötet: 
+#Your Geld: 
+Mission abgeschlossen, aber#in der Nähe gibt es Feinde.#Kill Feinde, oder warten
+# Keine Sorge, Sie können nicht sterben
+Exp
+* gekleidet *
+Schaden: 
+Verzögerung des Feuers: 
+Nachladezeit: 
+Schließlich i Rache sie alle!
+Yippee! Ich Rache sie alle!
+Hurra! Meine Rache ist vorbei!
+Ich Rache sie alle, aber es war schwer!
+Ich difinetly Rache sie alle
+Das ist alles, ist niemand mehr hier
+Ich töte jede dieser schmutzigen Feinde!
+Haha! Das ist alles! Niemand kann mir mehr weh!
+Uhuh! Ich habe es getan, ich sie alle töten!
+Ich avenged..Now i huh schlafen können!
+Hey, Schweinchen, vergessen Sie uns!
+Haha, Schwein, vergessen Sie Ihre Freunde über !!
+Turn aroud, Schwein! Wir kommen zu Ihnen!
+Hey, Schweinchen, das ist nicht alles!
+Piggy! Wir werden Sie nicht ruhen lassen!
+Haha, Rache uns!
+Sie haben vergessen, Rache uns, Piggy!
+Piggy Schwein! Wie wäre es uns Rache ?!
+Schwein, du nicht Rache, dreh dich um!
+Sieh uns an, faulenzen!
+Machen Sie sich bereit mein großes Schwein zu bekommen!
+Sie werden Rache!
+Ich werde dich jetzt rächen!
+Argh, du dreckiger Schuft!
+Jetzt werden Sie am Ende!
+Seien Sie bereit für Rache, Feinde!
+Machen Sie sich bereit für Rache!
+Sie haben keine Chance, ich werde jeden von euch töten
+Dirty Abschaum, bereiten nach Rache!
+Sie können bedauern, dass wieder!
+Töte 100 Feinde
+Verbringen Sie eine Stunde im Spiel
+Pass 100 Levels
+Reach Rang 20
+Pass 1000 Level
+Play 10 Stunden
+Kill 2000 Feinde
+Versuchen Sie Auto-Shooting
+Reach Rang 100
+Siehe Titern
+Play 100 Stunden
+Reach Rang 500
+Kill 500.000 Feinde
+Kaufen Sie alle Hüte
+Kaufen Sie Kleidung
+Kaufen Sie alle Waffen
+Kaufen Sie alle Upgrades
+Kill 1.000.000 Feinde
+Tippen Sie zum Überspringen
+Seite
+Prev.#Page
+LEVEL
+X6 SCHADEN!
+Verwenden Sie nach links Stock gehen! #Benutzen Rechten Stick zum Angriff!
+Willkommen bei#PIGS REVENGE 2!
+Drücken Sie Pause zu suchen#weitere Steuerarten!
+Nicht berühren Feinde!
+Wenn Sie eine Goldmedaille erhalten möchten,#tötet alle Gegner schnell!
+Wenn Sie eine Goldmedaille erhalten möchten,#nicht berühren Feinde!
+Denken Sie daran! Erforschen#die Karte Boni zu finden
+So wählen Sie eine andere Waffe#Hahn nach oben links Waffe Symbole!
+damage
+scale
+instance_number
+image_angle
+image_speed
+image_xscale
+image_yscale
+visible
+view_angle
+alarm
+PS_alt
+image_index
+instance_find
+my
+y
+x
+point_distance
+hp
+action_kill_object
+hp_start
+reward
+sprite
+mt
+color
+imboss
+goback
+last_proj
+flame
+flame_start
+flame_damage
+knock_power
+knock_rot
+prev_hp
+graphics_walk
+played_sound_panic
+my_target
+point_direction
+LE
+add_hp
+xprevious
+yprevious
+target_valid
+depth
+myproj
+myknock
+direction
+mypart
+sound
+sprite_index
+type_created
+image_blend
+kn
+place_free
+mys
+its_crit
+add_rew
+combo
+combo_x
+view_xview
+view_wview
+view_yview
+view_hview
+event_user
+mp_potential_step
+PS_voc
+shc
+sa
+image_alpha
+draw_rectangle_colour
+window_get_width
+window_get_height
+W2
+H2
+F_b
+V_b
+part_b
+map_visible
+map_micro
+start_walk
+start_shot
+dir_walk
+dir_shot
+device_walk
+device_shot
+ready_shot
+ready_walk
+v_keys_maked
+v_keys
+LangLoad
+os_type
+start_sound_chain
+start_sound_flame
+level_up_x
+aver_fps
+hint_time
+hint_mess
+hint_a
+randomize
+Bat
+WeaponAdd
+Axe
+Machete
+Sword
+Chainsaw
+Cool sword
+Magic finger
+Classic gun
+Blue pistol
+Fast pistol
+Revenger
+Gold guy
+Blackpower
+Super pistol
+Shorty
+Crusher
+Elephant
+Super crusher
+BIG MASTER
+Killer
+Destroyer
+Tiny gun
+Classic boy
+Fast maniac
+Old friend
+Sand avenger
+Momentum
+Blue death
+Balista
+Boomer
+Monster gun
+Exploder
+Firebug
+Blaster
+Super blaster
+display_get_height
+display_get_width
+window_set_size
+window_set_position
+sp
+cutscene_f
+cutscene_type
+cutscene_v
+16c476dc9c63d76b6fdf315c73f61649a170897c
+56d8596204b016442647f071
+Init
+weath_f
+weath_v
+trans_step
+trans_mess
+trans_timeout
+display_set_gui_size
+view_wport
+view_hport
+view_visible
+delta_time
+keyboard_check_pressed
+game_restart
+keyboard_key
+game_end
+GameDestroy
+keyboard_clear
+GameInit
+mouse_wheel_down
+mouse_wheel_up
+p
+e
+play_fire_loop
+play_chain_loop
+bb
+gotit
+bought
+q
+FF
+shit_add
+boss
+make_color_rgb
+add.gold.10
+iap_acquire
+add.gold.3
+add.gold.1
+fps
+MM
+audio_is_paused
+audio_pause_sound
+audio_resume_sound
+col
+draw_sprite_tiled
+make_colour_hsv
+sz
+irandom_range
+draw_ellipse
+XX
+YY
+draw_line
+Draw_EXP
+v_b
+make_color_hsv
+cnt
+v
+mouse_clear
+cacheInterstitial
+Credits###
+rep
+Game design
+Animation
+Concept artists
+Neighbors
+Testing
+Story
+PR
+Voice
+Code
+Graphics
+Cats
+Lead designer
+Director
+Random guys
+##
+Timmy
+Tony
+Semen
+Adam
+Vasek
+Mishka
+Grishka
+Linda
+Alisa
+Bobby
+Matt
+Jack
+Jhonny
+Scott
+Boris
+Fred
+Billy
+Pans
+Dash
+Pins
+Berns
+Antonio
+Gibson
+Stepanich
+Semenich
+Bobston
+Adams
+Nikson
+Jackson
+Jhonson
+Borisovich
+string_height
+draw_logogame
+https://vk.com/exotika.games
+url_open
+http://www.youtube.com/user/AlexStavXS/videos
+OpenLevelList
+st
+draw_text_ext_transformed_colour
+Draw_Shop
+Draw_Equip
+Draw_Ach
+Draw_Upgrade
+Draw_Levels
+MakeLoad
+showInterstitial
+Show!
+show_debug_message
+colcol
+ttt
+mins
+0
+:
+MPlay
+Draw_Quest
+Draw_Powerups
+XADD
+pbx
+pby
+swid
+shid
+its_slot
+pX
+pX2
+pY
+sc0
+DrawAmmo
+prev_c
+immune
+min_sc
+max_sc
+speed
+device_mouse_check_button
+device_mouse_check_button_pressed
+device_mouse_y_to_gui
+device_mouse_x_to_gui
+virtual_key_add
+virtual_key_delete
+device_get_tilt_y
+device_get_tilt_z
+motion_add
+device_mouse_check_button_released
+myplayer
+device_mouse_y
+device_mouse_x
+mycorpse
+to_die
+x_selected
+instance_deactivate_all
+pc
+draw_text_transformed
+make_colour_rgb
+slide
+color_sky
+color_gro
+cols
+x_plus
+y_plus
+aaa
+alp
+st_
+part
+combo_x_s
+powerup_hint
+xstart
+-
+stt
+#COMBO X
+CRITICAL HIT!#-
+draw_text_transformed_colour
+snd
+par
+blinker
+timer
+walk_time
+footstep
+sound_isplayed
+pw
+en
+point_in_rectangle
+hspeed
+vspeed
+blink_ind
+pr_pos
+boot_1_x
+boot_1_y
+boot_2_x
+boot_2_y
+_add
+offset_y
+offset_y2
+DrawWeapon
+h_a
+h_b
+dir
+state
+is_sniper
+explosive
+is_rocket
+F_dest
+rand_rot
+z
+zspeed
+zgravity
+shots
+shots_count
+myboom
+my_enemy
+finded
+mybullet
+is_array
+draw_get_colour
+ystart
+draw_line_width
+len
+hsp
+vsp
+sc2
+sc3
+sc4
+distance_to_object
+solid
+see
+picked
+myt
+as
+ss
+PigsRevenge2
+Default
+MyChartboost
+MyChartboost.ext
+showMoreApps
+showRewardedVideo
+cacheMoreApps
+cacheRewardedVideo
+snd_startup
+.wav
+snd_startup.wav
+snd_button
+snd_button.wav
+snd_loose
+snd_loose.wav
+snd_win
+snd_win.wav
+SndWpShotPistol0
+SndWpShotPistol0.wav
+SndWpShotPistol1
+SndWpShotPistol1.wav
+SnGrHit
+SnGrHit.wav
+SnWpAWPShot
+SnWpAWPShot.wav
+SnWpBoom
+SnWpBoom.wav
+SnWpChainEnd
+SnWpChainEnd.wav
+SnWpChainShot
+SnWpChainShot.wav
+SnWpChainStart
+SnWpChainStart.wav
+SnWpFireLoop
+SnWpFireLoop.wav
+SnWpFireStart
+SnWpFireStart.wav
+SnWpInterShot
+SnWpInterShot.wav
+SnWpmp5Fire
+SnWpmp5Fire.wav
+SnWpReloadAA
+SnWpReloadAA.wav
+SnWpReloadAk
+SnWpReloadAk.wav
+SnWpReloadBlaster
+SnWpReloadBlaster.wav
+SnWpReloadBow
+SnWpReloadBow.wav
+SnWpReloadDeagle
+SnWpReloadDeagle.wav
+SnWpReloadFlame
+SnWpReloadFlame.wav
+SnWpReloadGL
+SnWpReloadGL.wav
+SnWpReloadPistol
+SnWpReloadPistol.wav
+SnWpReloadRev
+SnWpReloadRev.wav
+SnWpReloadSawn
+SnWpReloadSawn.wav
+SnWpReloadSmg
+SnWpReloadSmg.wav
+SnWpSawnoffFire
+SnWpSawnoffFire.wav
+SnWpShotAA
+SnWpShotAA.wav
+SnWpShotAk
+SnWpShotAk.wav
+SnWpShotBlaster
+SnWpShotBlaster.wav
+SnWpShotBow
+SnWpShotBow.wav
+SnWpShotDeagle
+SnWpShotDeagle.wav
+SnWpShotFire
+SnWpShotFire.wav
+SnWpShotFlame
+SnWpShotFlame.wav
+SnWpShotGL
+SnWpShotGL.wav
+SnWpShotGlock
+SnWpShotGlock.wav
+SnWpShotLS
+SnWpShotLS.wav
+SnWpShotM4
+SnWpShotM4.wav
+SnWpShotM60
+SnWpShotM60.wav
+SnWpShotReload
+SnWpShotReload.wav
+SnWpShotRev
+SnWpShotRev.wav
+SnWpShotRevb
+SnWpShotRevb.wav
+SnWpShotRPG
+SnWpShotRPG.wav
+SnWpShotSB
+SnWpShotSB.wav
+SnWpShotScar
+SnWpShotScar.wav
+SnWpShotSShot
+SnWpShotSShot.wav
+SnWpShotSSMG
+SnWpShotSSMG.wav
+SnWpSword0
+SnWpSword0.wav
+SnWpVectorFire
+SnWpVectorFire.wav
+SnStep_Conc_0
+SnStep_Conc_0.wav
+SnStep_Conc_1
+SnStep_Conc_1.wav
+SnStep_Conc_2
+SnStep_Conc_2.wav
+SnStep_Conc_3
+SnStep_Conc_3.wav
+SnStepConcShoosh0
+SnStepConcShoosh0.wav
+SnStepConcShoosh1
+SnStepConcShoosh1.wav
+SnStepConcShoosh2
+SnStepConcShoosh2.wav
+SnStepConcShoosh3
+SnStepConcShoosh3.wav
+SnDamageSword
+SnDamageSword.wav
+SnWpSwordHit
+SnWpSwordHit.wav
+SnWpLSHit
+SnWpLSHit.wav
+SnWpBatHit
+SnWpBatHit.wav
+SnWpLaserHit
+SnWpLaserHit.wav
+SnGoreBullet
+SnGoreBullet.wav
+SnWpChainsaw0
+SnWpChainsaw0.wav
+SnZombie1
+SnZombie1.wav
+SnZombie2
+SnZombie2.wav
+SnZombie3
+SnZombie3.wav
+SnZombie4
+SnZombie4.wav
+SnZombie5
+SnZombie5.wav
+SnZombie6
+SnZombie6.wav
+SnZombie7
+SnZombie7.wav
+SnZombie8
+SnZombie8.wav
+SnZombie9
+SnZombie9.wav
+SnZombie10
+SnZombie10.wav
+SnZombie11
+SnZombie11.wav
+SnZombie12
+SnZombie12.wav
+SnZombie0
+SnZombie0.wav
+SnPigDamage
+SnPigDamage.wav
+SnZombieHit3
+SnZombieHit3.wav
+SnZombieHit4
+SnZombieHit4.wav
+SnZombieHit5
+SnZombieHit5.wav
+SnZombieHit6
+SnZombieHit6.wav
+SnZombieHit7
+SnZombieHit7.wav
+SnZombieHit8
+SnZombieHit8.wav
+SnZombieHit9
+SnZombieHit9.wav
+SnZombieHit
+SnZombieHit.wav
+SnZombieHit2
+SnZombieHit2.wav
+SnGore3
+SnGore3.wav
+SnGore2
+SnGore2.wav
+SnGore1
+SnGore1.wav
+SnGore0
+SnGore0.wav
+SnShop0
+SnShop0.wav
+SnLevelUp
+SnLevelUp.wav
+mus_0
+.mp3
+mus_0.ogg
+mus_1
+mus_1.ogg
+mus_2
+mus_2.ogg
+mus_theme
+mus_theme.ogg
+SnPickBonus
+SnPickBonus.wav
+sp_stones0
+sp_sandstones0
+sp_water
+sp_acid
+sp_woods0
+sp_winter_wood
+sp_winter_bush
+sp_green_bush0
+sp_green_bush1
+sp_green_bush2
+sp_dead_wood
+sp_tree0
+sp_tree1
+sp_tree2
+sp_tree3
+sp_tree4
+sp_porp_rockets
+sp_barrels
+sp_wheels0
+sp_wintergrass
+sp_cands0
+sp_toilet
+sp_bones
+sp_crystalls
+sp_shrooms
+sp_skala
+sp_colonna
+sp_colonna2
+sp_floor_rockets
+sp_but_ach
+sp_but_langs
+sp_but_menu
+sp_buts0
+sp_buts1
+sp_buts2
+sp_logo1
+sp_logo2
+sp_logogame
+sp_gui_blood
+sp_noavaible0
+sp_medal
+sp_res_icons
+sp_res_coin
+sp_loose
+sp_bloodscreen
+sp_gui_hp
+sp_but_reload
+sp_shop_locked
+sp_shop_buts0
+sp_shop_next
+sp_shop_but
+sp_moneygold
+sp_lookhere
+sp_convertmoney
+sp_weaponchoose
+sp_wpupgrade
+sp_wpupstar
+sp_levelup
+sp_levelup2
+sp_ach
+sp_mlev_complete
+sp_mlev_level
+sp_mlev_star
+sp_mlev_next
+sp_pl_body
+sp_pl_eyes
+sp_pl_foot0
+sp_pl_foot1
+sp_pl_hand0
+sp_pl_hand1
+sp_pl_head0
+sp_pl_mouth
+sp_pl_tail
+sp_pl_bodynew
+sp_pl_mouth2
+sp_contr1
+sp_contr0
+sp_controls2
+sp_controls3
+sp_fbloom
+sp_fshadow
+sp_pig
+sp_select_cont
+sp_select_control
+sp_wp_bat
+sp_wp_axe
+sp_wp_machete
+sp_wp_sword
+sp_wp_chain
+sp_wp_lasersword
+sp_wp_finger
+sp_wp_beretta
+sp_wp_usp
+sp_wp_glock
+sp_wp_deagle
+sp_wp_golddeagle
+sp_wp_revolver
+sp_wp_superpistol
+sp_wp_sawnoff
+sp_wp_spas
+sp_wp_awp
+sp_wp_aa12
+sp_wp_supershot
+sp_wp_inter
+sp_wp_revblaster
+sp_wp_mp5
+sp_wp_m4
+sp_wp_vector
+sp_wp_ak
+sp_wp_scar
+sp_wp_m60
+sp_wp_smg
+sp_wp_arb
+sp_wp_glaunch
+sp_wp_minigun
+sp_wp_rpg
+sp_wp_flame
+sp_wp_blaster
+sp_wp_superblaster
+sp_bowarrow
+sp_buckshot
+sp_buckshot_magic
+sp_bullet
+sp_bullet_2
+sp_grenade
+sp_laserblack
+sp_laserblue
+sp_laserred
+sp_partbang
+sp_partfire
+sp_partsmoke
+sp_rocket
+sp_shell_shot
+sp_shell_smg
+sp_part_hit
+sp_part_hitbullet
+sp_part_hitknife
+sp_part_hitlaser
+sp_part_blood0
+SpEnemy0
+SpEnemy0a
+SpEnemy1
+SpEnemy1a
+SpEnemy2
+SpEnemy2a
+SpEnemy3
+SpEnemy3a
+SpEnemy4
+SpEnemy4a
+SpEnemy5
+SpEnemy5a
+SpEnemy6
+SpEnemy6a
+SpEnemy7
+SpEnemy7a
+SpEnemy8
+SpEnemy8a
+SpEnemy9
+SpEnemy9a
+SpEnemy10
+SpEnemy10a
+SpEnemy11
+SpEnemy11a
+SpEnemy12
+SpEnemy12a
+SpEnemy13
+SpEnemy13a
+SpEnemy14
+SpEnemy14a
+SpEnemy15
+SpEnemy15a
+SpEnemy16
+SpEnemy16a
+SpEnemy17
+SpEnemy17a
+sp_ammo_9mm
+sp_ammo_atom
+sp_ammo_black
+sp_ammo_blue
+sp_ammo_gr
+sp_ammo_rifle
+sp_ammo_shot
+sp_ammo_shot2
+sp_ammo_super
+sp_ammo_arrow
+sp_ammo_fuel
+sp_grassback
+sp_pdr0
+sp_pdr1
+sp_pdr2
+sp_pdr3
+sp_pdr4
+sp_pdr5
+sp_pdr6
+sp_pdr7
+sp_pdr8
+sp_ph0
+sp_ph1
+sp_ph2
+sp_ph3
+sp_ph4
+sp_ph5
+sp_ph6
+sp_slide_sun
+sp_slide_mountains0
+sp_slide_cloud
+sp_lotenemies
+sp_slide_warn
+sp_back_sand
+sp_back_list
+sp_back_snow
+sp_back_cave
+sp_back_tile
+sp_fog
+sp_snowfall
+sp_donate
+sp_powerup0
+sp_hint
+sp_powerup_0
+sp_powerup_1
+sp_powerup_2
+sp_powerup_3
+F0
+Buxton Sketch
+F1
+Arial Black
+boom
+enemy
+G
+o_part_footstep
+part_bullethit
+part_texthit
+part_deadplayer
+part_blood0
+part_coins
+player
+projectile
+prop
+o_powerup
+r_game
+gml_Script_NextMenu
+gml_Script_LangLoad
+gml_Script_MakeLoad
+gml_Script_GameInit
+gml_Script_GameDestroy
+gml_Script_BT
+gml_Script_CS
+gml_Script_DS
+gml_Script_DT
+gml_Script_MPlay
+gml_Script_OpenLevelList
+gml_Script_PS
+gml_Script_PS_alt
+gml_Script_PS_voc
+gml_Script_SA
+gml_Script_StopAllMusic
+gml_Script_WeaponAdd
+gml_Script_Draw_Ach
+gml_Script_Draw_Equip
+gml_Script_Draw_Levels
+gml_Script_Draw_Shop
+gml_Script_Draw_Upgrade
+gml_Script_Draw_EXP
+gml_Script_DrawAmmo
+gml_Script_DrawWeapon
+gml_Script_Draw_Quest
+gml_Script_SaveAll
+gml_Script_draw_logogame
+gml_Script_Draw_Powerups
+gml_Script_LangSetRUS
+gml_Script_LangSetENG
+gml_Script_LangSetUKR
+gml_Script_LangSetESP
+gml_Script_LangSetITA
+gml_Script_LangSetFRE
+gml_Script_LangSetDEU
+gml_Object_boom_Create_0
+gml_Object_boom_Alarm_0
+gml_Object_boom_Step_0
+gml_Object_boom_Other_7
+gml_Object_enemy_Create_0
+gml_Object_enemy_Alarm_0
+gml_Object_enemy_Step_2
+gml_Object_enemy_Step_1
+gml_Object_enemy_Other_10
+gml_Object_enemy_Draw_0
+gml_Object_G_Create_0
+gml_Object_G_Step_1
+gml_Object_G_Step_0
+gml_Object_G_Draw_72
+gml_Object_G_Draw_64
+gml_Object_o_part_footstep_Create_0
+gml_Object_o_part_footstep_Alarm_0
+gml_Object_o_part_footstep_Step_0
+gml_Object_o_part_footstep_Draw_0
+gml_Object_part_bullethit_Create_0
+gml_Object_part_bullethit_Alarm_0
+gml_Object_part_bullethit_Other_7
+gml_Object_part_texthit_Create_0
+gml_Object_part_texthit_Alarm_0
+gml_Object_part_texthit_Step_0
+gml_Object_part_texthit_Draw_0
+gml_Object_part_deadplayer_Create_0
+gml_Object_part_deadplayer_Alarm_0
+gml_Object_part_blood0_Create_0
+gml_Object_part_blood0_Other_7
+gml_Object_part_coins_Create_0
+gml_Object_part_coins_Draw_0
+gml_Object_player_Create_0
+gml_Object_player_Step_2
+gml_Object_player_Collision_11
+gml_Object_player_Draw_0
+gml_Object_projectile_Create_0
+gml_Object_projectile_Step_0
+gml_Object_projectile_Other_40
+gml_Object_projectile_Other_0
+gml_Object_projectile_Draw_0
+gml_Object_prop_Create_0
+gml_Object_prop_Alarm_0
+gml_Object_prop_Step_0
+gml_Object_o_powerup_Create_0
+gml_Object_o_powerup_Alarm_0
+gml_Object_o_powerup_Step_0
+gml_Object_o_powerup_Draw_0
+gml_Room_r_game_Create
+head_b
+head_a
+adm_open
+adm_money
+adm_god
+adm_ammo
+adm_onehit
+adm_freeze
+adm_fps
+adm_lev
+adm_reset
+adm_msg
+adm_msg_t
+room_speed
+max
+min
+string_width
+ini_section_delete
+x1
+ADMIN
+x0.5
+x2
+АДМІН-МЕНЮ
+гроші 
+  рівень героя 
+Нескінченні гроші
+Відкрити все
+Безсмертя
+Нескінченні набої
+Вбивство з 1 удару
+Заморозити ворогів
+Швидкість гри: 
+FPS і вороги на екрані
++1 рівень героя (зараз 
+Рівень 
+Грати рівень 
+Виграти рівень
+Хвиля ворогів +10
+Викликати боса
+Скинути прогрес
+Точно? Натисни ще раз
+Закрити
+: ВКЛ
+: ВИКЛ
+-10
+-1
++1
++10
+Гроші: 999999
+Гроші більше не доливаються
+Відкрито: зброя, апгрейди, костюми, рівні
+Рівень героя 
+Прогрес скинуто
+Натисни ще раз, щоб скинути
+FPS 
+  ворогів 
+  room_speed 
+_amx
+_amy
+_arel
+_aingame
+_abx1
+_aby1
+_abw
+_abh
+_ashow
+_aalpha
+_apad
+_atop
+_arows
+_acols
+_abh2
+_abw2
+_ahit
+_ai
+_acol
+_arow
+_ax1
+_ay1
+_ax2
+_ay2
+_alab
+_aon
+_aen
+_aclr
+_ats
+_aseg
+_ak
+_asx1
+_asx2
+_aspd

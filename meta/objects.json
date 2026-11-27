@@ -1,0 +1,1971 @@
+[
+  {
+    "$type": "UndertaleGameObject",
+    "Name": "boom",
+    "Sprite": "sp_partbang",
+    "Visible": true,
+    "Managed": false,
+    "Solid": false,
+    "Depth": -1000,
+    "Persistent": false,
+    "ParentId": null,
+    "TextureMaskId": null,
+    "UsesPhysics": false,
+    "IsSensor": false,
+    "CollisionShape": "Circle",
+    "Density": 0.5,
+    "Restitution": 0.1,
+    "Group": 0,
+    "LinearDamping": 0.1,
+    "AngularDamping": 0.1,
+    "Friction": 0.2,
+    "Awake": true,
+    "Kinematic": false,
+    "PhysicsVertices": [],
+    "Events": [
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_boom_Create_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_boom_Alarm_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_boom_Step_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [],
+      [],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 7,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 203,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_boom_Other_7",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "7",
+          "EventSubtypeStep": "7",
+          "EventSubtypeMouse": "LeftReleased",
+          "EventSubtypeOther": "AnimationEnd",
+          "EventSubtypeDraw": "7",
+          "EventSubtypeGesture": "PinchIn"
+        }
+      ],
+      [],
+      [],
+      [],
+      []
+    ],
+    "ProjectName": "boom",
+    "ProjectAssetType": "GameObject",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleGameObject",
+    "Name": "enemy",
+    "Sprite": null,
+    "Visible": true,
+    "Managed": false,
+    "Solid": false,
+    "Depth": 0,
+    "Persistent": false,
+    "ParentId": null,
+    "TextureMaskId": null,
+    "UsesPhysics": false,
+    "IsSensor": false,
+    "CollisionShape": "Circle",
+    "Density": 0.5,
+    "Restitution": 0.1,
+    "Group": 0,
+    "LinearDamping": 0.1,
+    "AngularDamping": 0.1,
+    "Friction": 0.2,
+    "Awake": true,
+    "Kinematic": false,
+    "PhysicsVertices": [],
+    "Events": [
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_enemy_Create_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_enemy_Alarm_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 2,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_enemy_Step_2",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "2",
+          "EventSubtypeStep": "EndStep",
+          "EventSubtypeMouse": "MiddleButton",
+          "EventSubtypeOther": "GameStart",
+          "EventSubtypeDraw": "2",
+          "EventSubtypeGesture": "DragStart"
+        },
+        {
+          "$type": "Event",
+          "EventSubtype": 1,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_enemy_Step_1",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_anykey",
+          "EventSubtypeStep": "BeginStep",
+          "EventSubtypeMouse": "RightButton",
+          "EventSubtypeOther": "IntersectBoundary",
+          "EventSubtypeDraw": "1",
+          "EventSubtypeGesture": "DoubleTap"
+        }
+      ],
+      [],
+      [],
+      [],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 10,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_enemy_Other_10",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "10",
+          "EventSubtypeStep": "10",
+          "EventSubtypeMouse": "MouseEnter",
+          "EventSubtypeOther": "User0",
+          "EventSubtypeDraw": "10",
+          "EventSubtypeGesture": "RotateStart"
+        }
+      ],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_enemy_Draw_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [],
+      []
+    ],
+    "ProjectName": "enemy",
+    "ProjectAssetType": "GameObject",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleGameObject",
+    "Name": "G",
+    "Sprite": null,
+    "Visible": true,
+    "Managed": false,
+    "Solid": false,
+    "Depth": 0,
+    "Persistent": true,
+    "ParentId": null,
+    "TextureMaskId": null,
+    "UsesPhysics": false,
+    "IsSensor": false,
+    "CollisionShape": "Circle",
+    "Density": 0.5,
+    "Restitution": 0.1,
+    "Group": 0,
+    "LinearDamping": 0.1,
+    "AngularDamping": 0.1,
+    "Friction": 0.2,
+    "Awake": true,
+    "Kinematic": false,
+    "PhysicsVertices": [],
+    "Events": [
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_G_Create_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 1,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_G_Step_1",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_anykey",
+          "EventSubtypeStep": "BeginStep",
+          "EventSubtypeMouse": "RightButton",
+          "EventSubtypeOther": "IntersectBoundary",
+          "EventSubtypeDraw": "1",
+          "EventSubtypeGesture": "DoubleTap"
+        },
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_G_Step_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [],
+      [],
+      [],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 72,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_G_Draw_72",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "H",
+          "EventSubtypeStep": "72",
+          "EventSubtypeMouse": "72",
+          "EventSubtypeOther": "AsyncSaveAndLoad",
+          "EventSubtypeDraw": "DrawBegin",
+          "EventSubtypeGesture": "GlobalPinchOut"
+        },
+        {
+          "$type": "Event",
+          "EventSubtype": 64,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_G_Draw_64",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "64",
+          "EventSubtypeStep": "64",
+          "EventSubtypeMouse": "64",
+          "EventSubtypeOther": "64",
+          "EventSubtypeDraw": "DrawGUI",
+          "EventSubtypeGesture": "GlobalTap"
+        }
+      ],
+      [],
+      [],
+      []
+    ],
+    "ProjectName": "G",
+    "ProjectAssetType": "GameObject",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleGameObject",
+    "Name": "o_part_footstep",
+    "Sprite": null,
+    "Visible": true,
+    "Managed": false,
+    "Solid": false,
+    "Depth": 10,
+    "Persistent": false,
+    "ParentId": null,
+    "TextureMaskId": null,
+    "UsesPhysics": false,
+    "IsSensor": false,
+    "CollisionShape": "Circle",
+    "Density": 0.5,
+    "Restitution": 0.1,
+    "Group": 0,
+    "LinearDamping": 0.1,
+    "AngularDamping": 0.1,
+    "Friction": 0.2,
+    "Awake": true,
+    "Kinematic": false,
+    "PhysicsVertices": [],
+    "Events": [
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_o_part_footstep_Create_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 203,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_o_part_footstep_Alarm_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_o_part_footstep_Step_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [],
+      [],
+      [],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_o_part_footstep_Draw_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [],
+      []
+    ],
+    "ProjectName": "o_part_footstep",
+    "ProjectAssetType": "GameObject",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleGameObject",
+    "Name": "part_bullethit",
+    "Sprite": "sp_part_hitbullet",
+    "Visible": true,
+    "Managed": false,
+    "Solid": false,
+    "Depth": -1000000,
+    "Persistent": false,
+    "ParentId": null,
+    "TextureMaskId": null,
+    "UsesPhysics": false,
+    "IsSensor": false,
+    "CollisionShape": "Circle",
+    "Density": 0.5,
+    "Restitution": 0.1,
+    "Group": 0,
+    "LinearDamping": 0.1,
+    "AngularDamping": 0.1,
+    "Friction": 0.2,
+    "Awake": true,
+    "Kinematic": false,
+    "PhysicsVertices": [],
+    "Events": [
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_part_bullethit_Create_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_part_bullethit_Alarm_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [],
+      [],
+      [],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 7,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 203,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_part_bullethit_Other_7",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "7",
+          "EventSubtypeStep": "7",
+          "EventSubtypeMouse": "LeftReleased",
+          "EventSubtypeOther": "AnimationEnd",
+          "EventSubtypeDraw": "7",
+          "EventSubtypeGesture": "PinchIn"
+        }
+      ],
+      [],
+      [],
+      [],
+      []
+    ],
+    "ProjectName": "part_bullethit",
+    "ProjectAssetType": "GameObject",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleGameObject",
+    "Name": "part_texthit",
+    "Sprite": null,
+    "Visible": true,
+    "Managed": false,
+    "Solid": false,
+    "Depth": -1000001,
+    "Persistent": false,
+    "ParentId": null,
+    "TextureMaskId": null,
+    "UsesPhysics": false,
+    "IsSensor": false,
+    "CollisionShape": "Circle",
+    "Density": 0.5,
+    "Restitution": 0.1,
+    "Group": 0,
+    "LinearDamping": 0.1,
+    "AngularDamping": 0.1,
+    "Friction": 0.2,
+    "Awake": true,
+    "Kinematic": false,
+    "PhysicsVertices": [],
+    "Events": [
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_part_texthit_Create_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_part_texthit_Alarm_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_part_texthit_Step_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [],
+      [],
+      [],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_part_texthit_Draw_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [],
+      []
+    ],
+    "ProjectName": "part_texthit",
+    "ProjectAssetType": "GameObject",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleGameObject",
+    "Name": "part_deadplayer",
+    "Sprite": null,
+    "Visible": true,
+    "Managed": false,
+    "Solid": false,
+    "Depth": 0,
+    "Persistent": false,
+    "ParentId": null,
+    "TextureMaskId": null,
+    "UsesPhysics": false,
+    "IsSensor": false,
+    "CollisionShape": "Circle",
+    "Density": 0.5,
+    "Restitution": 0.1,
+    "Group": 0,
+    "LinearDamping": 0.1,
+    "AngularDamping": 0.1,
+    "Friction": 0.2,
+    "Awake": true,
+    "Kinematic": false,
+    "PhysicsVertices": [],
+    "Events": [
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_part_deadplayer_Create_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_part_deadplayer_Alarm_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "ProjectName": "part_deadplayer",
+    "ProjectAssetType": "GameObject",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleGameObject",
+    "Name": "part_blood0",
+    "Sprite": "sp_part_blood0",
+    "Visible": true,
+    "Managed": false,
+    "Solid": false,
+    "Depth": -1000000,
+    "Persistent": false,
+    "ParentId": null,
+    "TextureMaskId": null,
+    "UsesPhysics": false,
+    "IsSensor": false,
+    "CollisionShape": "Circle",
+    "Density": 0.5,
+    "Restitution": 0.1,
+    "Group": 0,
+    "LinearDamping": 0.1,
+    "AngularDamping": 0.1,
+    "Friction": 0.2,
+    "Awake": true,
+    "Kinematic": false,
+    "PhysicsVertices": [],
+    "Events": [
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_part_blood0_Create_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 7,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 203,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_part_blood0_Other_7",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "7",
+          "EventSubtypeStep": "7",
+          "EventSubtypeMouse": "LeftReleased",
+          "EventSubtypeOther": "AnimationEnd",
+          "EventSubtypeDraw": "7",
+          "EventSubtypeGesture": "PinchIn"
+        }
+      ],
+      [],
+      [],
+      [],
+      []
+    ],
+    "ProjectName": "part_blood0",
+    "ProjectAssetType": "GameObject",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleGameObject",
+    "Name": "part_coins",
+    "Sprite": null,
+    "Visible": true,
+    "Managed": false,
+    "Solid": false,
+    "Depth": 1000000,
+    "Persistent": false,
+    "ParentId": null,
+    "TextureMaskId": null,
+    "UsesPhysics": false,
+    "IsSensor": false,
+    "CollisionShape": "Circle",
+    "Density": 0.5,
+    "Restitution": 0.1,
+    "Group": 0,
+    "LinearDamping": 0.1,
+    "AngularDamping": 0.1,
+    "Friction": 0.2,
+    "Awake": true,
+    "Kinematic": false,
+    "PhysicsVertices": [],
+    "Events": [
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_part_coins_Create_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_part_coins_Draw_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [],
+      []
+    ],
+    "ProjectName": "part_coins",
+    "ProjectAssetType": "GameObject",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleGameObject",
+    "Name": "player",
+    "Sprite": "sp_pig",
+    "Visible": true,
+    "Managed": false,
+    "Solid": false,
+    "Depth": 0,
+    "Persistent": false,
+    "ParentId": null,
+    "TextureMaskId": null,
+    "UsesPhysics": false,
+    "IsSensor": false,
+    "CollisionShape": "Circle",
+    "Density": 0.5,
+    "Restitution": 0.1,
+    "Group": 0,
+    "LinearDamping": 0.1,
+    "AngularDamping": 0.1,
+    "Friction": 0.2,
+    "Awake": true,
+    "Kinematic": false,
+    "PhysicsVertices": [],
+    "Events": [
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_player_Create_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 2,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_player_Step_2",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "2",
+          "EventSubtypeStep": "EndStep",
+          "EventSubtypeMouse": "MiddleButton",
+          "EventSubtypeOther": "GameStart",
+          "EventSubtypeDraw": "2",
+          "EventSubtypeGesture": "DragStart"
+        }
+      ],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 11,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_player_Collision_11",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "11",
+          "EventSubtypeStep": "11",
+          "EventSubtypeMouse": "MouseLeave",
+          "EventSubtypeOther": "User1",
+          "EventSubtypeDraw": "11",
+          "EventSubtypeGesture": "Rotating"
+        }
+      ],
+      [],
+      [],
+      [],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_player_Draw_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [],
+      []
+    ],
+    "ProjectName": "player",
+    "ProjectAssetType": "GameObject",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleGameObject",
+    "Name": "projectile",
+    "Sprite": null,
+    "Visible": true,
+    "Managed": false,
+    "Solid": false,
+    "Depth": 0,
+    "Persistent": false,
+    "ParentId": null,
+    "TextureMaskId": null,
+    "UsesPhysics": false,
+    "IsSensor": false,
+    "CollisionShape": "Circle",
+    "Density": 0.5,
+    "Restitution": 0.1,
+    "Group": 0,
+    "LinearDamping": 0.1,
+    "AngularDamping": 0.1,
+    "Friction": 0.2,
+    "Awake": true,
+    "Kinematic": false,
+    "PhysicsVertices": [],
+    "Events": [
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_projectile_Create_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_projectile_Step_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [],
+      [],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 40,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_projectile_Other_40",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_down",
+          "EventSubtypeStep": "40",
+          "EventSubtypeMouse": "Joystick2Button5",
+          "EventSubtypeOther": "OutsideView0",
+          "EventSubtypeDraw": "40",
+          "EventSubtypeGesture": "40"
+        },
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 203,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_projectile_Other_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_projectile_Draw_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [],
+      []
+    ],
+    "ProjectName": "projectile",
+    "ProjectAssetType": "GameObject",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleGameObject",
+    "Name": "prop",
+    "Sprite": "sp_crystalls",
+    "Visible": true,
+    "Managed": false,
+    "Solid": false,
+    "Depth": 0,
+    "Persistent": false,
+    "ParentId": null,
+    "TextureMaskId": null,
+    "UsesPhysics": false,
+    "IsSensor": false,
+    "CollisionShape": "Circle",
+    "Density": 0.5,
+    "Restitution": 0.1,
+    "Group": 0,
+    "LinearDamping": 0.1,
+    "AngularDamping": 0.1,
+    "Friction": 0.2,
+    "Awake": true,
+    "Kinematic": false,
+    "PhysicsVertices": [],
+    "Events": [
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_prop_Create_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_prop_Alarm_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_prop_Step_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "ProjectName": "prop",
+    "ProjectAssetType": "GameObject",
+    "ProjectExportable": true
+  },
+  {
+    "$type": "UndertaleGameObject",
+    "Name": "o_powerup",
+    "Sprite": null,
+    "Visible": true,
+    "Managed": false,
+    "Solid": false,
+    "Depth": 0,
+    "Persistent": false,
+    "ParentId": null,
+    "TextureMaskId": null,
+    "UsesPhysics": false,
+    "IsSensor": false,
+    "CollisionShape": "Circle",
+    "Density": 0.5,
+    "Restitution": 0.1,
+    "Group": 0,
+    "LinearDamping": 0.1,
+    "AngularDamping": 0.1,
+    "Friction": 0.2,
+    "Awake": true,
+    "Kinematic": false,
+    "PhysicsVertices": [],
+    "Events": [
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_o_powerup_Create_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_o_powerup_Alarm_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_o_powerup_Step_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [],
+      [],
+      [],
+      [
+        {
+          "$type": "Event",
+          "EventSubtype": 0,
+          "Actions": [
+            {
+              "$type": "EventAction",
+              "LibID": 1,
+              "ID": 603,
+              "Kind": 7,
+              "UseRelative": false,
+              "IsQuestion": false,
+              "UseApplyTo": true,
+              "ExeType": 2,
+              "ActionName": "",
+              "CodeId": "gml_Object_o_powerup_Draw_0",
+              "ArgumentCount": 1,
+              "Who": -1,
+              "Relative": false,
+              "IsNot": false,
+              "UnknownAlwaysZero": 0
+            }
+          ],
+          "EventSubtypeKey": "vk_nokey",
+          "EventSubtypeStep": "Step",
+          "EventSubtypeMouse": "LeftButton",
+          "EventSubtypeOther": "OutsideRoom",
+          "EventSubtypeDraw": "Draw",
+          "EventSubtypeGesture": "Tap"
+        }
+      ],
+      [],
+      [],
+      []
+    ],
+    "ProjectName": "o_powerup",
+    "ProjectAssetType": "GameObject",
+    "ProjectExportable": true
+  }
+]
