@@ -46,7 +46,7 @@ jobs:
           save-logs: true
 
       - name: Upload Igor log
-        if: always()
+        if: always() && steps.build.outputs.log-dir != ''
         uses: actions/upload-artifact@v4
         with:
           name: igor-log
