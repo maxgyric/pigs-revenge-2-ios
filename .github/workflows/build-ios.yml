@@ -31,7 +31,7 @@ jobs:
             mkdir -p "$dir"
             printf '%s' "$LICENCE_PLIST" > "$dir/licence.plist"
             grep -q "<plist" "$dir/licence.plist" || { echo "::error::LICENCE_PLIST does not look like a licence.plist file"; exit 1; }
-            grep -A1 "expiry_date" "$dir/licence.plist" | tail -1 | sed 's/<[^>]*>//g;s/^ */Licence expires: /'
+            grep -A1 -iE "expiry_?date" "$dir/licence.plist" | tail -1 | sed "s/<[^>]*>//g;s/^[[:space:]]*/Licence expires: /"
           elif [ -z "$ACCESS_KEY" ]; then
             echo "::error::Add a repository secret: ACCESS_KEY (GameMaker access key) or LICENCE_PLIST (contents of licence.plist)"
             exit 1
@@ -39,7 +39,7 @@ jobs:
 
       - name: Set up Igor (GameMaker command line)
         id: igor
-        uses: bscotch/igor-setup@v1
+        uses: bscotch/igor-setup@v3
         with:
           access-key: ${{ secrets.ACCESS_KEY || 'unused-licence-file-provided' }}
           target-yyp: ${{ env.YYP }}
