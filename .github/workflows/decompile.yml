@@ -1,0 +1,56 @@
+name: Decompile game data
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "data/game.droid"
+      - "tools/ExportMeta.csx"
+      - ".github/workflows/decompile.yml"
+
+jobs:
+  decompile:
+    runs-on: ubuntu-latest
+    env:
+      UTMT_COMMIT: d73b2cbe89675cc197033f5572c5eb635e67089a
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
+
+      - name: Fetch UndertaleModTool (pinned)
+        run: |
+          git init utmt
+          cd utmt
+          git remote add origin https://github.com/UnderminersTeam/UndertaleModTool
+          git fetch --depth 1 origin "$UTMT_COMMIT"
+          git checkout FETCH_HEAD
+          git submodule update --init --depth 1 || true
+
+      - name: Build UndertaleModCli
+        run: dotnet build utmt/UndertaleModCli -c Release -o "$RUNNER_TEMP/utmtcli"
+
+      - name: Dump code, strings, textures, sprites
+        run: |
+          mkdir -p out
+          cp data/game.droid out/game.droid
+          dotnet "$RUNNER_TEMP/utmtcli/UndertaleModCli.dll" dump out/game.droid \
+            -o out/dump -c UMT_DUMP_ALL -s -t --sprites
+
+      - name: Export metadata and audio
+        env:
+          PR2_OUT: ${{ github.workspace }}/out/meta
+        run: |
+          dotnet "$RUNNER_TEMP/utmtcli/UndertaleModCli.dll" load out/game.droid \
+            -s tools/ExportMeta.csx
+
+      - name: Upload export
+        uses: actions/upload-artifact@v4
+        with:
+          name: pr2-export
+          path: |
+            out/dump
+            out/meta
+          retention-days: 14
