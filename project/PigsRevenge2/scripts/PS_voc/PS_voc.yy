@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"PS_voc",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"PS_voc",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

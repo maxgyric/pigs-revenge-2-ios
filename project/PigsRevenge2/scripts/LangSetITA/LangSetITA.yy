@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"LangSetITA",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"LangSetITA",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

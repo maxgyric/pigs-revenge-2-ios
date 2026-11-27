@@ -1,0 +1,11 @@
+__compat_init();
+damage = 0;
+scale = 1;
+count = instance_number(enemy);
+image_angle = random(360);
+image_speed = 0.5;
+image_xscale *= scale;
+image_yscale = image_xscale;
+visible = false;
+camera_set_view_angle(view_camera[0], camera_get_view_angle(view_camera[0]) + (random_range(2, 4) * choose(-1, 1)));
+alarm[0] = 1;

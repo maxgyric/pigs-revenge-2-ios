@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"StopAllMusic",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"StopAllMusic",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
