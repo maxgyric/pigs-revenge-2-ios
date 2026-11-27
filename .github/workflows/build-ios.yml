@@ -27,9 +27,14 @@ jobs:
           LICENCE_PLIST: ${{ secrets.LICENCE_PLIST }}
         run: |
           if [ -n "$LICENCE_PLIST" ]; then
-            dir="$GITHUB_WORKSPACE/gm-sandbox/gm-user/tempUser"
-            mkdir -p "$dir"
-            printf '%s' "$LICENCE_PLIST" > "$dir/licence.plist"
+            # igor-setup resolves its sandbox relative to its own dist folder
+            # (seen in logs), and older versions relative to the workspace.
+            for dir in "$(dirname "$RUNNER_WORKSPACE")/_actions/bscotch/igor-setup/v3/dist/gm-sandbox/gm-user/tempUser" \
+                       "$GITHUB_WORKSPACE/gm-sandbox/gm-user/tempUser"; do
+              mkdir -p "$dir"
+              printf '%s' "$LICENCE_PLIST" > "$dir/licence.plist"
+              echo "licence.plist -> $dir"
+            done
             grep -q "<plist" "$dir/licence.plist" || { echo "::error::LICENCE_PLIST does not look like a licence.plist file"; exit 1; }
             grep -A1 -iE "expiry_?date" "$dir/licence.plist" | tail -1 | sed "s/<[^>]*>//g;s/^[[:space:]]*/Licence expires: /"
           elif [ -z "$ACCESS_KEY" ]; then
